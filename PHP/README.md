@@ -50,7 +50,7 @@ PHP can also output images and PDF files
 <h2>Notes...</h2>
 <p>
     PHP code can run anywhere in the document, <br>
-    marked by the tags: <pre>"<?php" and "?>"</pre>
+    marked by the tags: <pre> <code> "<?php" and "?>" </code> </pre>
 </p>
 
 <p>
