@@ -15,5 +15,6 @@ Prerequisites for studying PHP are:
 </ul>
 </p>
 <p>
-A PHP file can contain the languages above and PHP code
+A PHP file can contain the languages above and PHP code. <br>
+A PHP file should also end in ".php"!
 </p>
