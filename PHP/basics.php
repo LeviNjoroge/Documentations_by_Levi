@@ -15,6 +15,9 @@
 
     Outputs in php can be done using either "echo" which is the most common
     or using "print".
+
+    The main difference is that print has a return value (of 1) while echo
+    does not have a return value, this makes echo faster
 -->
 
 <?php
@@ -26,4 +29,6 @@
     $name = "Levi";
     echo "My name is ".$name."<br>";
     print "My name is ".$name."<br>";
+
+
 ?>
