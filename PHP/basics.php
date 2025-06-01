@@ -19,6 +19,11 @@
 
 <?php
     //simple "hello world" statement using both print and echo
-    echo "Hello World!";
-    print "Hello World";
+    echo "Hello World! <br>";
+    print "Hello World <br>";
+
+    //string contatenation: appending a string or variable to a string
+    $name = "Levi";
+    echo "My name is ".$name."<br>";
+    print "My name is ".$name."<br>";
 ?>
