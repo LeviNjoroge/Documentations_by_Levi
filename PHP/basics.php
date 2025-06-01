@@ -18,7 +18,7 @@
 -->
 
 <?php
-    //simple "hello world statement
+    //simple "hello world" statement using both print and echo
     echo "Hello World!";
-
+    print "Hello World";
 ?>
