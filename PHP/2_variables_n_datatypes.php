@@ -7,5 +7,7 @@
     $age = 20;
     // and just like that you have a variable
 
-    
+    // let us explore some of the datatypes available:
+    $name = "Joe"; //string
+
 ?>
