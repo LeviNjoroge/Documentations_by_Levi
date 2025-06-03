@@ -26,4 +26,10 @@
     // we also have a few more data types that I havent touched on here, 
     // object
     // resource
+
+    // To get the data type of a variable, use the var_dump() function:
+    echo var_dump($age); // outputs int(20)
+
+    // you can also diclare the same value to different variables at the same time:
+    $x = $y = $z = 5;
 ?>
