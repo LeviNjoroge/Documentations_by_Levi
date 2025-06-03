@@ -13,6 +13,7 @@
         // A variable name cannot start with a number
         // A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
         // Variable names are case-sensitive ($age and $AGE are two different variables)
+        //                                                                                          ... credits to W3Schools for that portion of var rules
 
     // let us explore some of the datatypes available:
     $name = "Joe"; //string ... note that the value must be in quotations, either double or single is fine
