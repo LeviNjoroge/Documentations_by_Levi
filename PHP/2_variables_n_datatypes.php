@@ -13,5 +13,6 @@
     $gpa = 4.0; //Double/float
     $isStudent = true; //boolean => used in conditional testing not in outputs (true=1, false=0)
     $subjects = array("Math", "English", "Swahili", "Social Studies", "Science", "RE"); //arrays => there are three types of arrays, we are going to look into them in details later
-    $student 
+    $amount = NULL; //the null type, used to indicate no value/ empty a variable
+    
 ?>
