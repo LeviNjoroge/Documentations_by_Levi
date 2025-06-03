@@ -18,6 +18,8 @@
 
     The main difference is that print has a return value (of 1) while echo
     does not have a return value, this makes echo faster
+
+    a PHP statement MUST end in a semi colon!
 -->
 
 <?php

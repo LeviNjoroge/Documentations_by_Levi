@@ -9,5 +9,5 @@
 
     // let us explore some of the datatypes available:
     $name = "Joe"; //string
-
+    $age = 20; //
 ?>
