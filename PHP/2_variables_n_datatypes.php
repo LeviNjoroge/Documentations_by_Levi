@@ -47,7 +47,9 @@
     //local variable - var declared inside a function, can't be used by anything outside it
     {
         function setAge(){
-            
+            $age = 21;
         }
+        setAge();
+        echo $age; // the value of 
     }
 ?>
