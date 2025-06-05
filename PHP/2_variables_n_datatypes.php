@@ -36,7 +36,7 @@
     // var scope
     // this refers to the part of the script that the variables can be used/referenced
 
-    // global variable - was declared outside a function and can only be used outside the function
+    // global scope - var declared outside a function and can only be used outside the function
     {
         $fruit = "Mango";
         function getFruit(){
@@ -44,12 +44,18 @@
         }
     }
 
-    //local variable - var declared inside a function, can't be used by anything outside it
+    //local scope - var declared inside a function, can't be used by anything outside it
     {
-        function setAge(){
-            $age = 21;
+        function setPrice(){
+            $price = 21;
         }
-        setAge();
-        echo $age; // the value of 
+        setPrice();
+        echo $price; // the variable "price" is undefined
+    }
+
+    // but what if you want to used variables declared globally, inside a function?
+    // thanks to the global variable you can do this
+    {
+        $
     }
 ?>
