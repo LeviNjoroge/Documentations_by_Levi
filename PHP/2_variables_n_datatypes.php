@@ -44,5 +44,10 @@
         }
     }
 
-    //local variable - var 
+    //local variable - var declared inside a function, can't be used by anything outside it
+    {
+        function setAge(){
+            
+        }
+    }
 ?>
