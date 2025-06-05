@@ -82,4 +82,20 @@
         setBestFriend();
         echo $bestFriend."<br>";
     }
+
+    // static state 
+    // when a function is done being executed the variables values are often deleted
+    // we may want the values to be persistent, 
+    // to do so, we will use the static keyword while declaring the variable
+    {
+        function myRuns(){
+            static $runs = 0;
+            $runs += 1;
+            echo $runs."<br>";
+        }
+        myRuns();
+        myRuns();
+        myRuns();
+        myRuns();
+    }
 ?>
