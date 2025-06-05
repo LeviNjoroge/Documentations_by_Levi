@@ -85,17 +85,29 @@
 
     // static state 
     // when a function is done being executed the variables values are often deleted
-    // we may want the values to be persistent, 
+    // we may want the values to be persistent between calls of the function, 
     // to do so, we will use the static keyword while declaring the variable
     {
-        function myRuns(){
+        function myNonStaticRuns(){
+            $runs = 0;
+            $runs += 1;
+            echo $runs."<br>";
+        }
+        myNonStaticRuns();
+        myNonStaticRuns();
+        myNonStaticRuns();
+        // this  prints 1, 1, 1
+    }
+    {
+        function myStaticRuns(){
             static $runs = 0;
             $runs += 1;
             echo $runs."<br>";
         }
-        myRuns();
-        myRuns();
-        myRuns();
-        myRuns();
+        myStaticRuns();
+        myStaticRuns();
+        myStaticRuns();
+        // this prints 1, 2, 3
     }
+    // as long as the program is running, the value will always update its value, to hold one of the latest runs
 ?>
