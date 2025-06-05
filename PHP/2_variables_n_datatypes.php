@@ -40,7 +40,7 @@
     {
         $fruit = "Mango";
         function getFruit(){
-            echo $fruit; //results in an error stating that the variable fruit is undefined
+            echo $fruit."<br>"; //results in an error stating that the variable fruit is undefined
         }
     }
 
@@ -50,7 +50,7 @@
             $price = 21;
         }
         setPrice();
-        echo $price; // the variable "price" is undefined
+        echo $price."<br>"; // the variable "price" is undefined
     }
 
     // but what if you want to used variables declared globally, inside a function?
@@ -62,7 +62,7 @@
             $favGame = "Chess";
         }
         setFavGame();
-        echo $favGame;
+        echo $favGame."<br>";
     }
 
     {
@@ -70,6 +70,7 @@
             global $phoneBrand;
             $phoneBrand = "Xiaomi Redmi";
         }
-        echo $phoneBrand;
+        setPhoneBrand();
+        echo $phoneBrand."<br>";
     }
 ?>
