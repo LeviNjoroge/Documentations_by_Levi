@@ -64,7 +64,7 @@
         setFavGame();
         echo $favGame."<br>";
     }
-
+    // example 2
     {
         function setPhoneBrand(){
             global $phoneBrand;
@@ -72,5 +72,14 @@
         }
         setPhoneBrand();
         echo $phoneBrand."<br>";
+    }
+    // another way of using the globals var is using the Super variable array GLOBALS
+        {
+        $bestFriend = "Brian";
+        function setBestFriend(){
+            $GLOBALS["bestFriend"] = "Herman";
+        }
+        setBestFriend();
+        echo $bestFriend."<br>";
     }
 ?>
