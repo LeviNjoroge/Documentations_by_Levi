@@ -56,6 +56,20 @@
     // but what if you want to used variables declared globally, inside a function?
     // thanks to the global variable you can do this
     {
-        $
+        $favGame = "Risk";
+        function setFavGame(){
+            global $favGame; //declaring the variable as a global variable, hence can and will be used outside the function
+            $favGame = "Chess";
+        }
+        setFavGame();
+        echo $favGame;
+    }
+
+    {
+        function setPhoneBrand(){
+            global $phoneBrand;
+            $phoneBrand = "Xiaomi Redmi";
+        }
+        echo $phoneBrand;
     }
 ?>
