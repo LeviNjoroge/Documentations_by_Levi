@@ -111,4 +111,5 @@
         // this prints 1, 2, 3
     }
     // as long as the program is running, the value will always update its value, to hold one of the latest runs
+    // this is great for counters
 ?>
