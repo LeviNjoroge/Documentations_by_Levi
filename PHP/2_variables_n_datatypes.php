@@ -40,7 +40,8 @@
     {
         $fruit = "Mango";
         function getFruit(){
-            echo $fruit."<br>"; //results in an error stating that the variable fruit is undefined
+            // echo $fruit."<br>"; 
+            //results in an error stating that the variable fruit is undefined
         }
     }
 
