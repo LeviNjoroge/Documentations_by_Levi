@@ -77,7 +77,7 @@
         {
         $bestFriend = "Brian";
         function setBestFriend(){
-            $GLOBALS["bestFriend"] = "Herman";
+            $GLOBALS["bestFriend"] = "Herman"; // the variable is used as an item within the GLOBALS array
         }
         setBestFriend();
         echo $bestFriend."<br>";
