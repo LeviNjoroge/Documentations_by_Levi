@@ -32,4 +32,17 @@
 
     // you can also diclare the same value to different variables at the same time:
     $x = $y = $z = 5;
+
+    // var scope
+    // this refers to the part of the script that the variables can be used/referenced
+
+    // global variable - was declared outside a function and can only be used outside the function
+    {
+        $fruit = "Mango";
+        function getFruit(){
+            echo $fruit; //results in an error stating that the variable fruit is undefined
+        }
+    }
+
+    //local variable - var 
 ?>
