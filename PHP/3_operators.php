@@ -11,5 +11,11 @@
     echo $x % $y."<br>"; // modulo
     echo $x ** 2,"<br>"; // exponential
 
-    // 
+    // assignment operators: =, +=, -=, *=, /=, %=
+    echo $marks = 80,"<br>"; // assigns the value 80 to the var "marks"
+    echo $marks += 2,"<br>"; // adds 2 to the initial value contained in "marks" and reassigns the sum to the var
+    echo $marks -= 5,"<br>"; // subtracts 5 from the value in "marks" and assigns the new value to the var
+    echo $marks *= 10,"<br>"; // muliplies value by 10 then reassigns to var
+    echo $marks /= 4,"<br>"; // divides by number then reassigns
+    echo $marks %= 7,"<br>"; // gives the remainder of the valus 
 ?>
