@@ -42,7 +42,8 @@
 
     //string operations
     echo "I AM "."HIM"."<br>"; // adds two strings together
+
     $greetings = "Hello!";
-    $greetings .= " How can I help you today?";
+    $greetings .= " How can I help you today?"; // adds the string in the variable to the new one and stores the result back in the var
     echo $greetings;
 ?>
