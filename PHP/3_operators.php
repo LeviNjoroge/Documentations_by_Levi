@@ -18,5 +18,18 @@
     echo $marks -= 5,"<br>"; // subtracts 5 from the value in "marks" and assigns the new value to the var
     echo $marks *= 10,"<br>"; // muliplies value by 10 then reassigns to var
     echo $marks /= 4,"<br>"; // divides by number then reassigns
-    echo $marks %= 7,"<br>"; // gives the remainder of the valus 
+    echo $marks %= 7,"<br>"; // gives the remainder of the value
+
+    // unary ops: ++, --
+
+    // comparison ops:
+    if(5 == 4){
+        echo "5 is greater than 4!";
+    }
+    if(6 != 7){
+        echo "6 is not equal to 7!";
+    }
+    if(4>3){
+        echo "4 is greater than"
+    }
 ?>
