@@ -12,6 +12,7 @@
     echo $x ** 2,"<br>"; // exponential
 
     // assignment operators: =, +=, -=, *=, /=, %=
+    echo "assignment operators","<br>";
     echo $marks = 80,"<br>"; // assigns the value 80 to the var "marks"
     echo $marks += 2,"<br>"; // adds 2 to the initial value contained in "marks" and reassigns the sum to the var
     echo $marks -= 5,"<br>"; // subtracts 5 from the value in "marks" and assigns the new value to the var
