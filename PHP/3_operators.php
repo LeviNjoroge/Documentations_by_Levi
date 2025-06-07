@@ -42,10 +42,13 @@
 
     //string operations: use . for string concatenation
     echo "I AM "."HIM"."<br>"; // adds two strings together
-
     $greetings = "Hello!";
     $greetings .= " How can I help you today?"."<br>"; // adds the string in the variable to the new one and stores the result back in the var
     echo $greetings;
-
     //apparently, a comma can also be used tho it is recommended to use the period
+
+    // array operators: 
+    // + union
+    $books1 = array("Math Book 4", "English 2");
+    $books2 = array("Bio 1", "Geo 2");
 ?>
