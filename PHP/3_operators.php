@@ -22,7 +22,7 @@
 
     // unary ops: ++, --
 
-    // comparison ops:
+    // comparison ops: return a boolean
     $num1 = 9;
     $num2 = 8;
 
@@ -31,7 +31,7 @@
     $num1 >= $num2; // true: greater than of equal to
     $num1 <= $num2; // false: less than or equal to
     $num1 === 18/2; // identical to (value and type)
-    $num1 !== $num2; // not identical
+    $num1 !== $num2; // true: not identical
     $num1 > $num2; // greater than
     $num1 < $num2; // lesser than
 
