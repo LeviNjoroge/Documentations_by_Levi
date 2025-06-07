@@ -40,10 +40,11 @@
     $num1 != $num2 || $num1 <= $num2; //true //OR: one of the options is true
     $num1 > $num2; //false //NOT: just negates the statement
 
-    //string operations
+    //string operations: use . for string concatenation
     echo "I AM "."HIM"."<br>"; // adds two strings together
 
     $greetings = "Hello!";
     $greetings .= " How can I help you today?"; // adds the string in the variable to the new one and stores the result back in the var
     echo $greetings;
+
 ?>
