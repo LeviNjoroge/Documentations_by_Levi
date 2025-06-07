@@ -23,13 +23,16 @@
     // unary ops: ++, --
 
     // comparison ops:
-    if(5 == 4){
-        echo "5 is greater than 4!";
-    }
-    if(6 != 7){
-        echo "6 is not equal to 7!";
-    }
-    if(4>3){
-        echo "4 is greater than"
-    }
+    $num1 = 9;
+    $num2 = 8;
+
+    $num1 == $num2; // false: equal to
+    $num1 != $num2; // true: not equal to 
+    $num1 >= $num2; // true: greater than of equal to
+    $num1 <= $num2; // false: less than or equal to
+    $num1 === 18/2; // identical to (value and type)
+    $num1 !== $num2; // not identical
+    $num1 > $num2; // greater than
+    $num1 < $num2; // lesser than
+
 ?>
