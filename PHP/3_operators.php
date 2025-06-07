@@ -48,7 +48,5 @@
     //apparently, a comma can also be used tho it is recommended to use the period
 
     // array operators: 
-    // + union
-    $books1 = array("Math Book 4", "English 2");
-    $books2 = array("Bio 1", "Geo 2");
+    // + union, == equality, != inequality, === identity, !== non identity
 ?>
