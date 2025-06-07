@@ -35,4 +35,14 @@
     $num1 > $num2; // greater than
     $num1 < $num2; // lesser than
 
+    // logical operators: combine more than one comparison
+    $num1 != $num2 && $num1 >= $num2; //true //AND: both options are true
+    $num1 != $num2 || $num1 <= $num2; //true //OR: one of the options is true
+    $num1 > $num2; //false //NOT: just negates the statement
+
+    //string operations
+    echo "I AM "."HIM"."<br>"; // adds two strings together
+    $greetings = "Hello!";
+    $greetings .= " How can I help you today?";
+    echo $greetings;
 ?>
