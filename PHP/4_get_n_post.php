@@ -19,7 +19,7 @@
 <body>
     <div class="$_GET">
         <form action="" method="get">
-
+            <input type="submit" value="">
         </form>
     </div>
 </body>
