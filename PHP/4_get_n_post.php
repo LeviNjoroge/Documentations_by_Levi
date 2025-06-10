@@ -20,6 +20,8 @@
     <div class="$_GET">
         <form action="" method="get">
             <input type="text" name="name" id="name"> <br>
+            <input type="text" name="email" id="email"> <br>
+            
             <input type="submit" value="Submit">
         </form>
     </div>
