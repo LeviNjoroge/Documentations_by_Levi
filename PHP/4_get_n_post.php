@@ -13,6 +13,7 @@
     // $_GET is an array of variables passed to the current script via the URL parameters.
 
     // $_POST is an array of variables passed to the current script via the HTTP POST method.
+    // hence more secure since the variables arent exposed in the url as is the case with the GET method
 ?>
 
 <!DOCTYPE html>
