@@ -6,11 +6,11 @@
     // these two methods might seem the same but then the difference comes
     // from the way they pass data
 
-    Both GET and POST are treated as $_GET and $_POST. These are superglobals, which means that they are always accessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.
+    // Both GET and POST are treated as $_GET and $_POST. These are superglobals, which means that they are always accessible, regardless of scope - and you can access them from any function, class or file without having to do anything special.
 
-    $_GET is an array of variables passed to the current script via the URL parameters.
+    // $_GET is an array of variables passed to the current script via the URL parameters.
 
-    $_POST is an array of variables passed to the current script via the HTTP POST method.
+    // $_POST is an array of variables passed to the current script via the HTTP POST method.
 ?>
 
 <!DOCTYPE html>
