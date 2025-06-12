@@ -32,6 +32,8 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-    .
+    <div class="POST">
+        
+    </div>
 </body>
 </html>
