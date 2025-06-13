@@ -35,7 +35,7 @@
     <div class="POST">
         <form action="" method="post">
             <input type="text" name="fName" id="fName" placeholder="First Name..."> <br>
-            <input type="text" name="lName" id="lName" placeholder=""> <br>
+            <input type="text" name="lName" id="lName" placeholder="Last Name"> <br>
 
         </form>
     </div>
