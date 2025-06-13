@@ -36,7 +36,7 @@
         <form action="" method="post">
             <input type="text" name="fName" id="fName" placeholder="First Name..."> <br>
             <input type="text" name="lName" id="lName" placeholder="Last Name..."> <br>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email" id="email" placeholder="Email..."> <br>
         </form>
     </div>
 </body>
