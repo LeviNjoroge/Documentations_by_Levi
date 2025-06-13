@@ -34,7 +34,8 @@
     </div>
     <div class="POST">
         <form action="" method="post">
-            
+            <input type="text" name="fName" id="fName"> <br>
+            <input type="text" name="lNma" id="">
         </form>
     </div>
 </body>
