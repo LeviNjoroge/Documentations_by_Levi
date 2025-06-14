@@ -44,3 +44,8 @@
     </div>
 </body>
 </html>
+
+<?php
+// we can now get our values and store then in variables for later data manipulation
+
+?>
