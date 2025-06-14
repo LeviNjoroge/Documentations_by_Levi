@@ -56,5 +56,6 @@
     $message = $_GET["message"];
 
     // lets test if the variables actually get the values
+    echo $name."<br>";
 }
 ?>
