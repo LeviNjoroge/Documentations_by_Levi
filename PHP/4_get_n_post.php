@@ -55,6 +55,6 @@
     $email = $_GET["email"];
     $message = $_GET["message"];
 
-    //
+    // lets test if the variables actually get the values
 }
 ?>
