@@ -16,6 +16,7 @@
     // hence more secure since the variables arent exposed in the url as is the case with the GET method
 
     // the data will be sent to the PHP file specified in the "action" attribute of the form html element
+    // if no file is specified, the data will be sent to the same file, meaning on submit, the same file will reopen
 ?>
 
 <!DOCTYPE html>
