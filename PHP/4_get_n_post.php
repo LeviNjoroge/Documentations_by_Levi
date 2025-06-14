@@ -49,4 +49,8 @@
 // we can now get our values and store then in variables for later data manipulation
 // like if we'll want to store them in databases
 
+// for the GET method:
+{
+    
+}
 ?>
