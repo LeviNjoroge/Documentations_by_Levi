@@ -50,6 +50,7 @@
 // like if we'll want to store them in databases
 
 // for the GET method:
+// since the get method is not secure, I used it to create a feedback form
 {
     $name = $_GET["name"];
     $email = $_GET["email"];
@@ -60,6 +61,8 @@
 
     // you can have some more fun by printing out more variables
 }
+
+// for the POST method:
 {
     
 }
