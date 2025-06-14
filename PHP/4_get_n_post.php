@@ -14,6 +14,8 @@
 
     // $_POST is an array of variables passed to the current script via the HTTP POST method.
     // hence more secure since the variables arent exposed in the url as is the case with the GET method
+
+    // the data will be sent to the PHP file specified in the "action" attribute of the form html element
 ?>
 
 <!DOCTYPE html>
@@ -63,7 +65,14 @@
 }
 
 // for the POST method:
+// since the POST method is more secure, I used it to create a sign up form
 {
-    
+    $fName = $_POST["fName"];
+    $lName = $_POST["lName"];
+    $phone = $_POST["phone"];
+    $email = $_POST["email"];
+    $password = $_POST["password"];
+
+    echo $fName."<br>";
 }
 ?>
