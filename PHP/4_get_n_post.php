@@ -26,19 +26,19 @@
 <body>
     <div class="$_GET">
         <form action="" method="get">
-            <input type="text" name="name" id="name"> <br>
-            <input type="text" name="email" id="email"> <br>
-            <textarea name="message" id="message"></textarea> <br>
+            <input type="text" name="name" id="name" placeholder="Name: "> <br>
+            <input type="text" name="email" id="email" placeholder="Email: "> <br>
+            <textarea name="message" id="message" placeholder="Type your message..."></textarea> <br>
             <input type="submit" value="Submit">
         </form>
     </div>
     <div class="POST">
         <form action="" method="post">
-            <input type="text" name="fName" id="fName" placeholder="First Name..."> <br>
-            <input type="text" name="lName" id="lName" placeholder="Last Name..."> <br>
-            <input type="tel" name="phone" id="phone"> <br>
+            <input type="text" name="fName" id="fName" placeholder="First Name:"> <br>
+            <input type="text" name="lName" id="lName" placeholder="Last Name:"> <br>
+            <input type="tel" name="phone" id="phone" placeholder="Phone number: "> <br>
             <input type="email" name="email" id="email" placeholder="Email..."> <br>
-            <input type="password" name="password" id="password"> <br>
+            <input type="password" name="password" id="password" placeholder="Password"> <br>
             <input type="submit" value="Submit"> <br>
         </form>
     </div>
@@ -56,6 +56,11 @@
     $message = $_GET["message"];
 
     // lets test if the variables actually get the values
-    echo $name."<br>";
+    echo $name."<br>"; // it does!!
+
+    // you can have some more fun by printing out more variables
+}
+{
+    
 }
 ?>
