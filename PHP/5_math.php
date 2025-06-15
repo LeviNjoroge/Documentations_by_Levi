@@ -11,6 +11,8 @@
     <title>Math Functions</title>
 </head>
 <body>
-    <form action="5_math.php" method="get"></form>
+    <form action="5_math.php" method="get">
+        <input type="number" name="num1" id="num1">
+    </form>
 </body>
 </html>
