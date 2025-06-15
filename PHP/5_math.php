@@ -11,6 +11,6 @@
     <title>Math Functions</title>
 </head>
 <body>
-    
+    <form action="" method="get"></form>
 </body>
 </html>
