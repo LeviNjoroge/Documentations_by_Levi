@@ -13,7 +13,7 @@
 <body>
     <form action="5_math.php" method="get">
         <input type="number" name="num1" id="num1" placeholder="Input a number... "> <br>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Calculate">
     </form>
 </body>
 </html>
