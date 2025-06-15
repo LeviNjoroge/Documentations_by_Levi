@@ -12,7 +12,7 @@
 </head>
 <body>
     <form action="5_math.php" method="get">
-        <input type="number" name="num1" id="num1">
+        <input type="number" name="num1" id="num1" placeholder="Input a number... ">
     </form>
 </body>
 </html>
