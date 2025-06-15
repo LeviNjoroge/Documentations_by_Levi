@@ -11,6 +11,6 @@
     <title>Math Functions</title>
 </head>
 <body>
-    <form action="" method="get"></form>
+    <form action="5_math.php" method="get"></form>
 </body>
 </html>
