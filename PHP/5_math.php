@@ -13,6 +13,7 @@
 <body>
     <form action="5_math.php" method="get">
         <input type="text" name="num1" id="num1" placeholder="Input a number... "> <br>
+        <input type="text" name="num2" id="num2" placeholder="Input another number... "> <br>
         <input type="submit" value="Calculate">
     </form>
 </body>
@@ -20,5 +21,10 @@
 
 <?php
     $num1 = $_GET["num1"];
-    echo abs($num1); // this returns the absolute value of a number
+    $num2 = $_GET["num2"];
+    echo "absolute: " . abs($num1); // this returns the absolute value of a number
+    echo "rounding: " . round($num1); // this rounds the decimal number
+    echo "rounding down " . floor($num1); // this rounds the number down
+    echo "round up " . ceil($num1);
+    echo "power: " . pow($num1, $num2); // num1 to the power of num2
 ?>
