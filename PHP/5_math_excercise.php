@@ -24,5 +24,9 @@
 <?php
     if(isset($_GET["radius"])){
         $radius = $_GET["radius"];
+
+        $circumference = 2 * pi() * $radius;
+        $area = pi() * pow($radius, 2);
+        $volume = pi() * 
     }
 ?>
