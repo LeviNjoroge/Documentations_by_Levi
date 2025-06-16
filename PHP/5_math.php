@@ -22,9 +22,15 @@
 <?php
     $num1 = $_GET["num1"];
     $num2 = $_GET["num2"];
+    
     echo "absolute: " . abs($num1); // this returns the absolute value of a number
     echo "rounding: " . round($num1); // this rounds the decimal number
     echo "rounding down " . floor($num1); // this rounds the number down
     echo "round up " . ceil($num1);
+
     echo "power: " . pow($num1, $num2); // num1 to the power of num2
+    echo "square root" . sqrt($num1);
+    
+    echo "max: " . max($num1, $num2); // maximum value
+    echo "min " . min($num1, $num2);
 ?>
