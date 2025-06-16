@@ -12,7 +12,7 @@
 </head>
 <body>
     <form action="5_math.php" method="get">
-        <input type="number" name="num1" id="num1" placeholder="Input a number... "> <br>
+        <input type="text" name="num1" id="num1" placeholder="Input a number... "> <br>
         <input type="submit" value="Calculate">
     </form>
 </body>
@@ -20,5 +20,5 @@
 
 <?php
     $num1 = $_GET["num1"];
-    
+    echo abs($num1); // this returns the absolute value of a number
 ?>
