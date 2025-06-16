@@ -22,7 +22,7 @@
 <?php
     $num1 = $_GET["num1"];
     $num2 = $_GET["num2"];
-    
+
     echo "absolute: " . abs($num1); // this returns the absolute value of a number
     echo "rounding: " . round($num1); // this rounds the decimal number
     echo "rounding down " . floor($num1); // this rounds the number down
@@ -33,4 +33,6 @@
     
     echo "max: " . max($num1, $num2); // maximum value
     echo "min " . min($num1, $num2);
+
+    echo pi();
 ?>
