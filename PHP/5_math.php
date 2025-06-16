@@ -18,4 +18,7 @@
 </body>
 </html>
 
-<??>
+<?php
+    $num1 = $_GET["num1"];
+    
+?>
