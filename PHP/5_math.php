@@ -37,5 +37,5 @@
     echo pi(); // outputs 10 digits of pi
 
     echo rand(); // outputs a random number to like over 2B says brocode
-    echo rand(1, 6); // outputs a random number between 1 and 6, setting constraints
+    echo "roll a dice: " . rand(1, 6); // outputs a random number between 1 and 6, setting constraints
 ?>
