@@ -11,9 +11,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>The Circle!</title>
 </head>
 <body>
-    
+    <form action="" method="get">
+        <input type="text" name="radius" id="radius" placeholder="Enter the radius: "> <br>
+        <input type="submit" value="Submit"> <br>
+    </form>
 </body>
 </html>
