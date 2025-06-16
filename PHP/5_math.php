@@ -34,5 +34,7 @@
     echo "max: " . max($num1, $num2); // maximum value
     echo "min " . min($num1, $num2);
 
-    echo pi();
+    echo pi(); // outputs 10 digits of pi
+
+    echo rand(); // outputs a random number
 ?>
