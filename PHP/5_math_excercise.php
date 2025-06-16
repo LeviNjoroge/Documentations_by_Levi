@@ -26,7 +26,17 @@
         $radius = $_GET["radius"];
 
         $circumference = 2 * pi() * $radius;
+        $circumference = round($circumference, 2);
+
         $area = pi() * pow($radius, 2);
-        $volume = pi() * 
+        $area = round($area, 2);
+
+        $volume = 4/3 *  pi() * pow($radius, 2);
+        $volume = round($volume, 2);
+
+        $surface_area = 4 *  pi() * pow($radius, 2);
+        $surface_area = round($surface_area, 2);
+
+        echo "From the circle of radius {$radius}, the following are the calculations: <br>Circumference: {$circumference} <br>Area: {$area} <br><br>Introducing a sphere of the same radius: <br>Volume: {$volume} <br>Surface Area: {$surface_area}";
     }
 ?>
