@@ -22,5 +22,7 @@
 </html>
 
 <?php
-
+    if(isset($_GET["radius"])){
+        $radius = $_GET["radius"];
+    }
 ?>
