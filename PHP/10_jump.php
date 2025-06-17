@@ -37,10 +37,11 @@ while ($i<10) {
 // lets do that again, shall we?
 $j = 0;
 while ($j<10) {
-    if ($j === 5) {
+    if ($j == 5) {
         continue;
     }
     echo $j . "<br>";
     $j++;    
 }
+// seems the browser cant run the above, but it works perfectly fine on the terminal
 ?>
