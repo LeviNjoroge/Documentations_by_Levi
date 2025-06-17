@@ -35,11 +35,12 @@ while ($i<10) {
 }
 
 // lets do that again, shall we?
-while ($i<10) {
-    if ($i == 5) {
+$j = 0;
+while ($j<10) {
+    if ($j === 5) {
         continue;
     }
-    echo $i . "<br>";
-    $i++;    
+    echo $j . "<br>";
+    $j++;    
 }
 ?>

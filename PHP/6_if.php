@@ -67,4 +67,13 @@ if($marksGeo){
 // 1 or a higher number results in a true
 
 // this can be used to test whether the variables have any values in store
+
+// simple if statements can be shortened using the ternary operator:
+// (condition)? value1 : value2;
+// condition is checked, if true, value1 is executed, else, value2
+// example:
+$message = (4>7)? "4 is greater than 7" : "4 is less than 7";
+echo $message;
+
+()
 ?>
