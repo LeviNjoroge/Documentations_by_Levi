@@ -13,5 +13,8 @@ for ($i=0; $i < ; $i++) {
 // (initialization; condition; increment)
 // this is simply to mention the number of times the for loop will run
 
-//
+// example, to output the first 10 numbers;
+for($i = 1; $i = 10; $i++){
+    
+}
 ?>
