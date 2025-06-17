@@ -65,4 +65,6 @@ if($marksGeo){
 // booleans store values as follows; false = 0, true = 1
 // hence when a variable has 0 or null, then the boolean equivalent of it is false
 // 1 or a higher number results in a true
+
+// this can be used to test whether the variables have any values in store
 ?>
