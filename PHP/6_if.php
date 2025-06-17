@@ -38,4 +38,9 @@ else{
 // and it exists, having an if statement with it, the condition in it is also not met, 
 // this checking through conditions will happen sequentially untill there is an else statement that is not conditional
 
+// another thing, you can 
+$isAdult = true;
+$marksMath = 80;
+$marksEng = null;
+$marksGeo = 0;
 ?>
