@@ -9,5 +9,37 @@
 // 2. continue
 
 // break teminates the loop, the iteration is completed
+// example:
+for ($i=0; $i < 12; $i++) { 
+    echo $i . "<br>";
+    // normally, this would output the numbers 0 to 11 then terminate.
+    // but we can terminate prematurely by adding the break statement:
+    if ($i === 4) {
+        break;
+    }
+    // this will now output 0 to 4 and end there
+}
 
+// continue is used to skip the remaining statements in the current iteration and the loop continues with the next iteration
+// example
+$i = 1;
+while ($i<10) {
+    echo $i . "<br>";
+    $i++;
+    // this should print 1 to 9
+    // what if we add a continue statement rn?
+    if ($i == 5) {
+        continue;
+    }
+    // nothing happens, the printing and incrementals were done before the continue statement and there was nothing left in the current iteration to run for it to skip over
+}
+
+// lets do that again, shall we?
+while ($i<10) {
+    if ($i == 5) {
+        continue;
+    }
+    echo $i . "<br>";
+    $i++;    
+}
 ?>
