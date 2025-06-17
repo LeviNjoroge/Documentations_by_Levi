@@ -33,5 +33,9 @@ else{
     echo "You are a child";
 }
 
-//
+// in the above example, the first condition is not met, the statement is ignored, 
+// the event loop then checks for an else clause, 
+// and it exists, having an if statement with it, the condition in it is also not met, 
+// this checking through conditions will happen sequentially untill there is an else statement that is not conditional
+
 ?>
