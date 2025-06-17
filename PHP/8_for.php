@@ -10,11 +10,11 @@ for ($i=0; $i < ; $i++) {
 */
 
 // within the parenthesis following the for clause, the statements are as follows:
-// (initialization; condition; increment)
+// (counter initialization; condition[run as long as...]; counter increment)
 // this is simply to mention the number of times the for loop will run
 
 // example, to output the first 10 numbers;
-for($i = 1; $i = 10; $i++){
-    
+for($i = 1; $i <= 10; $i++){
+    echo "{$i}<br>";
 }
 ?>
