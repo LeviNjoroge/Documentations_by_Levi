@@ -12,6 +12,6 @@
 
 // example:
 if(7>6){
-    echo "Did you know that 7 is greater than 6?";
+    echo "Did you know that 7 is greater than 6? Now you know!<br>";
 }
 ?>
