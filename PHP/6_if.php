@@ -74,6 +74,4 @@ if($marksGeo){
 // example:
 $message = (4>7)? "4 is greater than 7" : "4 is less than 7";
 echo $message;
-
-()
 ?>
