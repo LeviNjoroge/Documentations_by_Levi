@@ -43,4 +43,20 @@ $isAdult = true;
 $marksMath = 80;
 $marksEng = null;
 $marksGeo = 0;
+
+if($isAdult){
+    echo "Suspect is an adult! <br>";
+}
+
+if($marksMath){
+    echo "Suspect has his math results! <br>";
+}
+
+if($marksEng){
+    echo "Suspect has his english results! <br>";
+}
+
+if($marksGeo){
+    echo "Suspect has his geo results! <br>";
+}
 ?>
