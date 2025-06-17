@@ -18,5 +18,5 @@ for($i = 1; $i <= 10; $i++){
     echo "{$i}<br>";
 }
 
-// more about the for loop coming up soon when we'll be talking about arrays
+// more about the for loop coming up soon when we'll be talking about arrays.
 ?>
