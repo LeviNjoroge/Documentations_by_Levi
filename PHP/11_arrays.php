@@ -24,7 +24,10 @@ $marks2[2] = 83;
 // they have their indexes as strings to establish strong association btwn key and values.
 // names/keys can be ASSOCIATED with each array element using '=>' symbol
 // examples? (thought you'd never ask;) )
-$marks0 = array("Austin"=>98, "")
+$marks0 = array("Austin"=>98, "Sichei"=>96);
+// OR
+$marks01["Austin"] = 98;
+$marks01["Sichei"] = 96;
 
 // multidimensional arrays are also called arrays within arrays
 // they store tabular data in a single array
