@@ -27,7 +27,7 @@ $marks2[2] = 83;
 $marks0 = array("Austin"=>98, "Sichei"=>97);
 // OR
 $marks01["Austin"] = 98;
-$marks01["Sichei"] = 96;
+$marks01["Sichei"] = 97;
 
 // multidimensional arrays are also called arrays within arrays
 // they store tabular data in a single array
