@@ -10,11 +10,11 @@
 
 // indexed arrays are the common type, the array items/ values in them arrays are represented by a number(index) starting 0
 // examples of the different ways of defining the arrays;
-$marks1 = array(89,23,83);
+$marks0 = array(89,23,83);
 // OR
-$marks2[0] = 89;
-$marks2[1] = 23;
-$marks2[2] = 83;
+$marks01[0] = 89;
+$marks01[1] = 23;
+$marks01[2] = 83;
 
 // associative arrays;
 // this is an interesting bunch of arrays, 
@@ -24,10 +24,10 @@ $marks2[2] = 83;
 // they have their indexes as strings to establish strong association btwn key and values.
 // names/keys can be ASSOCIATED with each array element using '=>' symbol
 // examples? (thought you'd never ask;) )
-$marks0 = array("Austin"=>98, "Sichei"=>97);
+$marks1 = array("Austin"=>98, "Sichei"=>97);
 // OR
-$marks01["Austin"] = 98;
-$marks01["Sichei"] = 97;
+$marks11["Austin"] = 98;
+$marks11["Sichei"] = 97;
 
 // multidimensional arrays are also called arrays within arrays
 // they store tabular data in a single array
