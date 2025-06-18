@@ -32,5 +32,9 @@ $marks11["Sichei"] = 97;
 // multidimensional arrays are also called arrays within arrays
 // they store tabular data in a single array
 // they can be represented in form of a matrix, ie in rows and columns
-
+$marks2 = array(
+    array("67","86","87"),
+    array("54","34","37"),
+    array("21","12","01")
+);
 ?>
