@@ -38,4 +38,6 @@ $marks2 = array(
     array("21","12","01")
 );
 // as you can see, the multidimensional array is just an array that carrys other arrays in it
+
+// array operations
 ?>
