@@ -40,5 +40,5 @@ $marks2 = array(
 // as you can see, the multidimensional array is just an array that carrys other arrays in it
 
 // array operations
-// you can print all the key value pairst
+// you can print all the key value pairs of our arrays, 
 ?>
