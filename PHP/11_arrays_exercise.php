@@ -40,6 +40,7 @@ $countries = array(
 <?php
     if(isset($_GET["country"])){
         $country = $_GET["country"];
-        $capital
+        $capital = $countries[$country];
+        echo "The capital of {$country} is {$capital}";
     }
 ?>
