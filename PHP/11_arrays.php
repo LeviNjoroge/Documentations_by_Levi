@@ -40,17 +40,5 @@ $marks2 = array(
 // as you can see, the multidimensional array is just an array that carrys other arrays in it
 
 // array operations
-// you can print all the key value pairs of our arrays, using the for loop, 
-// but here we have a more efficient way of doing that:
-// the "for each"
-// syntax:
-/*
-foreach ($variable as $key => $value) {
-    # code...
-}
-*/
-// example:
-foreach ($marks0 as $index => $mark){
-    echo "Mark " . $index +1 . " is {$mark}<br>";
-}
+{}
 ?>
