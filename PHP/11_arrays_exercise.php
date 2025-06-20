@@ -33,7 +33,13 @@ $countries = array(
     <form action="" method="get">
         <label for="country">Enter the country below: </label>
         <input type="text" name="country" id="country"> <br>
-        <input type="submit" value="Find Capital!s">
+        <input type="submit" value="Find Capital!"> <br>
     </form>
 </body>
 </html>
+<?php
+    if(isset($_GET["country"])){
+        $country = $_GET["country"];
+        $capital
+    }
+?>
