@@ -31,8 +31,9 @@ $countries = array(
 </head>
 <body>
     <form action="" method="get">
-        <label for="country"></label>
+        <label for="country">Enter the country below: </label>
         <input type="text" name="country" id="country"> <br>
+        <input type="submit" value="Find Capital!s">
     </form>
 </body>
 </html>
