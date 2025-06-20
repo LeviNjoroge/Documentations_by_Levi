@@ -22,3 +22,17 @@ $countries = array(
     "Argentina" => "Buenos Aires"
 );
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capitals</title>
+</head>
+<body>
+    <form action="" method="get">
+        <label for="country"></label>
+        <input type="text" name="country" id="country"> <br>
+    </form>
+</body>
+</html>
