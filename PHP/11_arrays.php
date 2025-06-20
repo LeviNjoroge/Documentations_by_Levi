@@ -51,6 +51,6 @@ foreach ($variable as $key => $value) {
 */
 // example:
 foreach ($marks0 as $index => $mark){
-    echo "Mark {$index} is {$key}<br>";
+    echo "Mark " . $index +1 . " is {$mark}<br>";
 }
 ?>
