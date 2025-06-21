@@ -56,8 +56,6 @@ $marks2 = array(
     }
     // this knowledge can be greatly used in retreaving database info
 }
-{
-    // arrays methods:
     array_pop($marks01); // removes the last item in the array
     array_shift($marks0); // removes the first element/item from the array
     $marksKeys = array_keys($marks2); // creates a new array of just keys of the current array and assignes it to the var
