@@ -59,7 +59,7 @@ $marks2 = array(
 array_pop($marks01); // removes the last item in the array
 array_shift($marks0); // removes the first element/item from the array
 $marksKeys = array_keys($marks2); // creates a new array of just keys of the current array and assignes it to the var
-    $marksValues = array_values($marks2); // creates a new array of just Values of the current array and assignes it to the var
-    $marksFlipped = array_flip($marks1); // creates a new associative array of the values switched, asin; the keys are values and values are keys
-    $marksReversed = array_reverse($marks0); // reverses the order of the arrays
+$marksValues = array_values($marks2); // creates a new array of just Values of the current array and assignes it to the var
+$marksFlipped = array_flip($marks1); // creates a new associative array of the values switched, asin; the keys are values and values are keys
+$marksReversed = array_reverse($marks0); // reverses the order of the arrays
 ?>
