@@ -43,6 +43,7 @@ $countries = array(
         $capital = $countries[$country];
         echo "The capital of {$country} is {$capital}";
         // or
-        // echo "The capital of {$_GET["country"]} is {$countries[$_GET["country"]]}"; // for efficiency:)
+        // echo "The capital of {$_GET["country"]} is {$countries[$_GET["country"]]}"; 
+        // the above for efficiency:)
     }
 ?>
