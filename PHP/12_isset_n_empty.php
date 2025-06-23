@@ -40,7 +40,7 @@
         <input type="text" name="username" id="username"> <br>
         <label for="password">Password:</label> 
         <input type="text" name="password" id="password"> <br>
-        <input type="submit" value="submit"> <br>
+        <input type="submit" value="submit" name="submit"> <br>
     </form>
 </body>
 </html>
@@ -51,6 +51,15 @@
 if (isset($_POST["submit"])) {
     $username = $_POST["username"];
     $password = $_POST["password"];
-    echo "You have pressed the submit button";
+    
+    if(empty($username)){
+        echo"Error! Enter your username!";
+    }
+    elseif(empty($password)){
+        echo"Error! Enter your password!";
+    }
+    else{
+        echo "Welcome {$username}";
+    }
 }
 ?>
