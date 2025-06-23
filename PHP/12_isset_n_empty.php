@@ -4,5 +4,8 @@
     // empty() return true if a variable is not declared, null, false, ""
 
     // example
-    
+    $username = null;
+    echo isset($username); // returns false/0/""
+    echo empty($username); // returns true/1
+
 ?>
