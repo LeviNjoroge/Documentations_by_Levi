@@ -15,4 +15,12 @@
     else{
         echo "The variable IS NOT set!";
     }
+
+    $name = "";
+    if(empty($name)){
+        echo "The variable IS empty";
+    }
+    else{
+        echo "The varianle IS NOT empty";
+    }
 ?>
