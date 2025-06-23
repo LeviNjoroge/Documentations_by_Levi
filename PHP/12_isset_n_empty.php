@@ -4,12 +4,12 @@
     // empty() return true if a variable is not declared, null, false, ""
 
     // example
-    $username = null;
-    echo isset($username); // returns false/0/""
-    echo empty($username); // returns true/1
+    $userName = null;
+    echo isset($userName); // returns false/0/""
+    echo empty($userName); // returns true/1
 
-    $username = "Kahutia Te Rangi";
-    if (isset($username)) {
+    $userName = "Kahutia Te Rangi";
+    if (isset($userName)) {
         echo "the vaiable IS set!"; // this is executed
     }
     else{
@@ -34,6 +34,12 @@
     <title>Isset and Empty methods</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        <label for="username">Username:</label> 
+        <input type="text" name="username" id="username"> <br>
+        <label for="password">Password:</label> 
+        <input type="text" name="password" id="password"> <br>
+        <input type="submit" value="submit"> <br>
+    </form>
 </body>
 </html>
