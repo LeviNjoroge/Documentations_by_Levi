@@ -9,5 +9,10 @@
     echo empty($username); // returns true/1
 
     $username = "Kahutia Te Rangi";
-    
+    if (isset($username)) {
+        echo "the vaiable IS set!";
+    }
+    else{
+        echo "The variable IS NOT set!";
+    }
 ?>
