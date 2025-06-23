@@ -46,11 +46,11 @@
 </html>
 
 <?php
-$username = $_POST["username"];
-$password = $_POST["password"];
 
 // first, we check if the user has pressed the submit button
 if (isset($_POST["submit"])) {
+    $username = $_POST["username"];
+    $password = $_POST["password"];
     echo "You have pressed the submit button";
 }
 ?>
