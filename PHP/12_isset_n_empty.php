@@ -8,6 +8,6 @@
     echo isset($username); // returns false/0/""
     echo empty($username); // returns true/1
 
-    $username = "Kahu";
+    $username = "Kahutia Te Rangi";
     
 ?>
