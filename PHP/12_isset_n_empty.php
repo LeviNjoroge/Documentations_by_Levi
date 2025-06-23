@@ -10,7 +10,7 @@
 
     $username = "Kahutia Te Rangi";
     if (isset($username)) {
-        echo "the vaiable IS set!";
+        echo "the vaiable IS set!"; // this is executed
     }
     else{
         echo "The variable IS NOT set!";
