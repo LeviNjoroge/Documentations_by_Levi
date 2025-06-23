@@ -34,6 +34,7 @@
     <title>Isset and Empty methods</title>
 </head>
 <body>
+    <br>
     <form action="" method="post">
         <label for="username">Username:</label> 
         <input type="text" name="username" id="username"> <br>
@@ -43,3 +44,13 @@
     </form>
 </body>
 </html>
+
+<?php
+$username = $_POST["username"];
+$password = $_POST["password"];
+
+// first, we check if the user has pressed the submit button
+if (isset($_POST["submit"])) {
+    echo "You have pressed the submit button";
+}
+?>
