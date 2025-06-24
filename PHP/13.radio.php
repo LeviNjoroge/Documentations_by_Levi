@@ -10,6 +10,8 @@
     <title>Radio buttons</title>
 </head>
 <body>
-    form:post
+    <form action="" method="post">
+        
+    </form>
 </body>
 </html>
