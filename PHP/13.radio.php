@@ -1,3 +1,3 @@
 <?php
-// radio buttons
+    // radio buttons
 ?>
