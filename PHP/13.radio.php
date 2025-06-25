@@ -11,7 +11,7 @@
 </head>
 <body>
     <form action="" method="post">
-        input:ra
+        <input type="radio" name="" id="">
     </form>
 </body>
 </html>
