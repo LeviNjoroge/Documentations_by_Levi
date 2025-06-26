@@ -12,7 +12,7 @@
 <body>
     <form action="" method="post">
         <input type="radio" name="visa" id="visa">
-        <input type="radio" name="" id=""visa   >
+        <input type="radio" name="" id="">
         <input type="submit" value="">
     </form>
 </body>
