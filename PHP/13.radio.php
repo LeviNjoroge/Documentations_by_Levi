@@ -11,9 +11,9 @@
 </head>
 <body>
     <form action="" method="post">
-        <input type="radio" name="visa" id="visa"> 
+        <input type="radio" name="visa" id="visa"> <br>
         <input type="radio" name="" id=""> <br>
-        <input type="submit" value="">
+        <input type="submit" value=""> <br>
     </form>
 </body>
 </html>
