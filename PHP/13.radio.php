@@ -21,5 +21,8 @@
 </html>
 
 <?php
-
+    if(isset($_POST["mode"])){
+        $mode = $_POST["mode"];
+        echo "you selected " . $mode;
+    }
 ?>
