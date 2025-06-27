@@ -11,9 +11,11 @@
 </head>
 <body>
     <form action="" method="post">
+        
         <input type="radio" name="mode" id="mode" value="visa"> <br>
-        <input type="radio" name="" id=""> <br>
-        <input type="submit" value=""> <br>
+        <input type="radio" name="mode" id="mode" value="cash"> <br>
+        <input type="radio" name="mode" id="mode" value="paypal"> <br>
+        <input type="submit" value="Submit"> <br>
     </form>
 </body>
 </html>
