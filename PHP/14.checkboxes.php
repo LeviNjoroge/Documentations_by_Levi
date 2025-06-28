@@ -26,7 +26,7 @@
         $food = $_POST["foods"];
         echo "You like ";
         foreach ($food as $key => $value) {
-            echo $value;
+            echo $value . " ";
         }
         echo "<br>";
     }
