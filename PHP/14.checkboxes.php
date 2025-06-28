@@ -12,7 +12,11 @@
 </head>
 <body>
     <form action="" method="post">
-        input
+        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
+        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
+        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
+        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
+        <input type="submit" value="Submit"> <br>
     </form>
 </body>
 </html>
