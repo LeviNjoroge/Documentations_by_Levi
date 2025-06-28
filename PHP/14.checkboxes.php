@@ -11,6 +11,8 @@
     <title>Checkboxes</title>
 </head>
 <body>
-    
+    <form action="" method="post">
+        input
+    </form>
 </body>
 </html>
