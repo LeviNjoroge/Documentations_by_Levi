@@ -12,10 +12,10 @@
 </head>
 <body>
     <form action="" method="post">
-        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
-        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
-        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
-        <input type="checkbox" name="pizza" id="pizza" value="Pizza"> <br>
+        <input type="checkbox" name="pizza" id="pizza" value="Pizza">Pizza <br>
+        <input type="checkbox" name="hambugger" id="hambugger" value="Hambugger">Hambugger <br>
+        <input type="checkbox" name="hotdog" id="hotdog" value="Hotdog">Hotdog <br>
+        <input type="checkbox" name="tako" id="tako" value="Tako">Tako <br>
         <input type="submit" value="Submit"> <br>
     </form>
 </body>
