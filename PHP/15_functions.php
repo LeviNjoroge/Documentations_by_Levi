@@ -7,5 +7,5 @@ function FunctionName( //parameters) : Returntype {
     # code
 }
 */
-
+// example:
 ?>
