@@ -8,7 +8,4 @@ function FunctionName( //parameters) : Returntype {
 }
 */
 // example:
-/*
-]
-*
 ?>
