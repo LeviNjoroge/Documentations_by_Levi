@@ -2,8 +2,10 @@
 // functions
 // a function is described as a piece of code that performs a perticular task
 // syntax:
-
-function FunctionName() : Returntype {
+/*
+function FunctionName( //parameters) : Returntype {
     # code
 }
+*/
+
 ?>
