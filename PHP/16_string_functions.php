@@ -16,4 +16,15 @@ echo strpos($phrase, " down") . "<br>"; // searches for a character in the strin
 echo trim($phrase) . "<br>"; // removes any whitespace b4 or after the string
 echo str_replace("down", "up", $phrase) . "<br>"; // replaces some characters with other specified ones
 echo substr($phrase, 5, 12) . "<br>";
+
+// kasmall exercise:
+// you are given a full name, and told to give each name individually
+$fullname = "Hayden Kung'u Ngash Paul";
+$names = array();
+
+// my approach: create an array of names and each element will be a single name: use explode
+$names = explode(" ",$fullname);
+foreach ($names as $key => $value) {
+    echo $value . "<br>";
+}
 ?>
