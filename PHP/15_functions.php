@@ -25,3 +25,23 @@ function hypotenuse($x, $y){
 }
 echo hypotenuse(1,1)  . "\n";
 ?>
+
+<?php
+echo "<br>";
+// sth drawing my attention:
+function square($num){
+    $result = $num * $num;
+    echo "the answer is " . $result . "<br>";
+}
+$x = 6;
+$answer = square($x);
+echo $answer;
+
+function square1(&$num){
+    $result = $num * $num;
+    echo "the second answer is " . $result . "<br>";
+}
+$y = 6;
+$answer = square1($y);
+echo $answer;
+?>
