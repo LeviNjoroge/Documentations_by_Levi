@@ -3,7 +3,16 @@
 // that we got using the retreaval methods (GET n POST) 
 // and we clean the data to prevent SQL injection and incorrect data input
 
-// sanii
+// sanitize means cleaning the data to remove any unwanted data from it and the remaining clean data is passed through
+// validate means we are only accepting valid/clean data through, hence, if there is any illegal characters, the variable is assigned to an empty string, meaning, not valid
+
+// for both, we use the method: filter_input()
+// this has three arguments: 
+# 1: INPUT_POST, INPUT_GET, INPUT_ENV, INPUT_COOKIE, INPUT_SERVER... using the method or supervariable you used
+# 2: name of the variable you are fetching, eg, "username" .. must be string
+# 3: filter method, starting with FILTER_
+        // to sanitize, use SANITIZE_
+        // to validate, use VALIDATE_
 ?>
 
 <!DOCTYPE html>
@@ -42,7 +51,10 @@ if(isset($_POST["submit"])){
     // this filters input, from the POST method, with name as username, and sanitizes to remove special characters
     echo "Hello {$sanitized_username}";
 
-    /
-    
+    // lets sanitize age and validate email:
+    $age = filter_input(INPUT_POST, "age", FILTER_SANITIZE_NUMBER_INT); // This will remove any non integer characters
+    $email = filter_input(INPUT_POST, "email", FILTER_VALIDATE_EMAIL); // only valid email will pass through
+
+    // we mostly use sanitize!
 }
 ?>
