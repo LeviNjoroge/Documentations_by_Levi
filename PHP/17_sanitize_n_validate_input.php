@@ -30,6 +30,11 @@ if(isset($_POST["submit"])){
     // an alert box will be displayed and the normal working of our code wont go as planned... that means someone can actually hack our system
 
     // to prevent this, we can add a filter to sanitize any user input as follows;
-    
+    // instead of accessing the value directly from the supervariable $_POST or $_GET, 
+    // we sanitize the data we are getting as follows:
+    $sanitized_username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS); 
+    // this filters input, from the POST method, with name as username, and sanitizes to remove special characters
+    echo "Hello {$sanitized_username}";
+
 }
 ?>
