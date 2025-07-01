@@ -2,6 +2,8 @@
 // here we learn how we can sanitize and validate input from the user 
 // that we got using the retreaval methods (GET n POST) 
 // and we clean the data to prevent SQL injection and incorrect data input
+
+// sanii
 ?>
 
 <!DOCTYPE html>
@@ -13,8 +15,12 @@
 </head>
 <body>
     <form action="" method="post">
-        <label for="username">Username: </label>
+        <label for="email">email: </label>
+        <input type="text" name="email" id="email"> <br>
+        <label for="username">username: </label>
         <input type="text" name="username" id="username"> <br>
+        <label for="age">age: </label>
+        <input type="text" name="age" id="age"> <br>
         <input type="submit" value="Submit" name="submit"> <br>
     </form>
 </body>
@@ -23,7 +29,7 @@
 <?php
 if(isset($_POST["submit"])){
     $username = $_POST["username"];
-    echo "Hello! {$username}";
+    # echo "Hello! {$username}"; // prone to attack
 
     // if user input sth that contains code, that will be executed, we have to ensure that that code will not be executed in the backend or frontend, 
     // for example; if the user types in the following as their username: "<script>alert("You have a virus")</script>" 
@@ -36,5 +42,7 @@ if(isset($_POST["submit"])){
     // this filters input, from the POST method, with name as username, and sanitizes to remove special characters
     echo "Hello {$sanitized_username}";
 
+    /
+    
 }
 ?>
