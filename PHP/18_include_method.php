@@ -1,4 +1,4 @@
 <?php
 // include()
-// what 
+// what this does is, it
 ?>
