@@ -5,5 +5,5 @@
 // this makes it easier to reuse some sections of your website
 // also the changes will only need to be applied in one file
 
-// lets look at some exampli
+// lets look at some examples
 ?>
