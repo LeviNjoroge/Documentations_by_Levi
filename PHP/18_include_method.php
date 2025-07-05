@@ -5,18 +5,11 @@
 // this makes it easier to reuse some sections of your website
 // also the changes will only need to be applied in one file
 
-// lets look at some examples
-
+// this highly encourages code reusability 
+// and is highly recommended when working with portions of your website that you are going to use the same code on
+// examples include:
+#navigations
+#header and footer files
+#database files...
+// and many more, the posibilities are limitless!
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>include()</title>
-</head>
-<body>
-    
-</body>
-</html>
