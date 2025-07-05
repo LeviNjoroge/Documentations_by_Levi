@@ -15,5 +15,18 @@ $hash = password_hash($password, PASSWORD_DEFAULT);
 echo $hash;
 
 // what if you want to log in a user using infomation currently available in the database?
-// 
+// will you have to dehash the password as one would decrypt one?
+// unfortunately, there is nothing like that, we however have a way to your goal, a simpler way even:
+#password_verify($password, $hash) - verifies that the password matches the hash, 
+    // can be used to compare a plain-text password against a hashed one n see if they are mathematically similar
+
+// example:
+password_verify("azerty1234", $hash); // this will return false
+
+// you can apply this to verifying user input using an if statement:
+if (password_verify("pizza123", $hash)) {
+    echo "Log in successful!";
+}else {
+    echo "incorrect password!";
+}
 ?>
