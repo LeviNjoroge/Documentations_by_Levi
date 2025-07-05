@@ -12,4 +12,8 @@
 #header and footer files
 #database files...
 // and many more, the posibilities are limitless!
+
+// as a demonstration, I will import a file that has used this method heavily:
+
+include("18_include_method_demo\index.php");
 ?>
