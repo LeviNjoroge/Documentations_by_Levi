@@ -1,0 +1,11 @@
+<?php
+#hashing
+// this is the process of converting plain-text sensitive data (passwords) into a series of characters via a mathematical process
+
+// a hash is a hashed password (or so it is in my documentation)
+// to create a hash, 
+#password_hash($password[your plain text password], [hashing algorithm])
+
+// example:
+
+?>
