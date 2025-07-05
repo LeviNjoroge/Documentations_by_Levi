@@ -5,5 +5,11 @@
 // suppose you want to create a login/signup page for users and you want to display/access their info as long as they are logged in,
 // this is great for you since as long as the user is in session, the values stored in the $_SESSION super variable will apply
 
-// to illustrate this, I will create a login and home page
+// to illustrate this, I will create a login and home page:
+include("20_session_demo/login.php");
+
+// an important method that appears is the header() method, that is used to redirect the user to a different file
+// syntax: 
+# header("Location: /your file/");
+// an example of the same is used in the demo project
 ?>

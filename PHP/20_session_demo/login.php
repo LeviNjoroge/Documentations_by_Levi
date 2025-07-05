@@ -21,7 +21,7 @@ if(isset($_POST["login"])){
     if(!empty($_POST["username"]) && !empty($_POST["password"])){
         $_SESSION["username"] = $_POST["username"];
         $_SESSION["password"] = $_POST["password"];
-        echo "<script>alert('Login successful!')</script>";
+        echo "<script>alert('Login successful!')</script>"; 
         header("Location: index.php");
     }
     else {

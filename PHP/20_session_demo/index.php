@@ -19,7 +19,7 @@ session_start();
 </html>
 <?php
 if (isset($_GET["logout"])) {
-    session_abort();
+    session_destroy();
     header("Location: login.php");
 }
 ?>
