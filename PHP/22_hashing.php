@@ -12,5 +12,8 @@ $hash = password_hash($password, PASSWORD_DEFAULT);
 
 // the hashed password is now safe to store in our database since in case of a data breach, user's passwords wont be visible to the third party
 // you can view to hashed password here:
-echo "$hash";
+echo $hash;
+
+// what if you want to log in a user using infomation currently available in the database?
+// 
 ?>
