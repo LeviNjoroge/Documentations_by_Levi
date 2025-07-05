@@ -17,8 +17,6 @@
     <title>include()</title>
 </head>
 <body>
-    <form action="" method="get">
-        <label for=""></label>
-    </form>
+    
 </body>
 </html>
