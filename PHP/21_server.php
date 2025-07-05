@@ -10,4 +10,7 @@ foreach($_SERVER as $key => $value){
 }
 
 // more about this may be coming soon since apparently this is some hardcore stuff
+// for instance:
+#$_SERVER["REQUEST_METHOD"] is used to find the request method
+#$_SERVER[""]
 ?>
