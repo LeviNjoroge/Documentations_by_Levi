@@ -1,5 +1,5 @@
 <?php
-session_start()
+session_start() // for all the files that will use $_SESSION data, you must start the session
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -12,7 +12,20 @@ session_start()
     <form action="" method="post">
         Username: <input type="text" name="username" id="username"> <br>
         Password: <input type="password" name="password" id="password"> <br>
-        <input type="submit" value="login" name:"login"> <br>
+        <input type="submit" value="login" name="login"> <br>
     </form>
 </body>
 </html>
+<?php
+if(isset($_POST["login"])){
+    if(!empty($_POST["username"]) && !empty($_POST["password"])){
+        $_SESSION["username"] = $_POST["username"];
+        $_SESSION["password"] = $_POST["password"];
+        echo "<script>alert('Login successful!')</script>";
+        header("Location: index.php");
+    }
+    else {
+        echo "Enter username/password!";
+    }
+}
+?>
