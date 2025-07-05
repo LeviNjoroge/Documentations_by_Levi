@@ -11,7 +11,8 @@ include("20_session_demo/login.php");
 // some of the important bits about the session include:
 #session_start() - starts a new or resumes an existing session
 #session_destroy() - destroys all data registered to a session
-#$_SESSION[] 
+#$_SESSION[] - stores keys/value pairs that can be passes around in the session
+//              - these values are user defined.
 
 // an important method that appears is the header() method, that is used to redirect the user to a different file
 // syntax: 
