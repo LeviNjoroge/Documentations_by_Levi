@@ -7,5 +7,8 @@
 #password_hash($password[your plain text password], [hashing algorithm])
 
 // example:
+$password = "qwerty1234";
+$hash = password_hash($password, PASSWORD_DEFAULT);
 
+// the hashed passow
 ?>
