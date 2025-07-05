@@ -11,5 +11,6 @@ $password = "qwerty1234";
 $hash = password_hash($password, PASSWORD_DEFAULT);
 
 // the hashed password is now safe to store in our database since in case of a data breach, user's passwords wont be visible to the third party
-
+// you can view to hashed password here:
+echo "$hash";
 ?>
