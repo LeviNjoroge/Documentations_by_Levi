@@ -22,14 +22,14 @@
     # setcookie("key", "value", time() - 0, path_to_storage[blank for default])); 
 
     // example:
-    setcookie("fav_book", "The Whale Rider", time()-0); 
+    #setcookie("fav_book", "The Whale Rider", time()-0); 
     // this will make the cookie disappear immediatly.
     // you can otherwise just wait it out and it will expire on its set date
 }
 
 // since we know the location of the cookies, we can access them:
 if(isset($_COOKIE["fav_book"])){
-    echo "Your favourite book is {$_COOKIE["fav_book"]}";
+    echo "Your favourite book is {$_COOKIE["fav_book"]}, I recommend that you buy the book mate!";
 }
 else{
     echo "I honestly do not know your fav book mate!";
