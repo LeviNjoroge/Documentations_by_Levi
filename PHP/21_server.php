@@ -6,6 +6,8 @@
 // information that is contained in it is displayed here:
 echo "The SERVER superglobal variable contains the following: <br><br>";
 foreach($_SERVER as $key => $value){
-    echo "$key = $value <br>";
+    echo "$key = $value <br>"; 
 }
+
+// more about this may be coming soon since apparently this is some hardcore stuff
 ?>
