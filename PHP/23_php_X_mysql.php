@@ -1,4 +1,4 @@
 <?php
 // PHP connect to MySQL database
-// we can use PHP 
+// PHP allows one to access and manipulate the database 
 ?>
