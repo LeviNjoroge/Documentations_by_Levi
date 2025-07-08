@@ -1,3 +1,4 @@
 <?php
-// creating a table on mysql
+// creating a table on mysql using php
+
 ?>
