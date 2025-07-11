@@ -15,4 +15,4 @@
 
 // if the connection is successful, the variable will be declared, and thats how you can check if you have a successful connection
 
-// remember, this is just for the mysqli extension, other databases work 
+// remember, this is just for the mysqli extension, other databases work differently
