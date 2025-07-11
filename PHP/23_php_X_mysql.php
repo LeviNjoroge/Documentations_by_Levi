@@ -15,4 +15,5 @@
 
 // if the connection is successful, the variable will be declared, and thats how you can check if you have a successful connection
 
+// 
 ?>
