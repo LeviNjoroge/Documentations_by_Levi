@@ -2,6 +2,7 @@
 // Inserting data into a table in a database using PHP
 // prerequisite of this is for you to have created a database and a table in it, so that we can populate it using PHP
 
+// we will be using the method: mysqli_query([connection_object], [query])
 //let's get into it...
 include("database.php");
 
