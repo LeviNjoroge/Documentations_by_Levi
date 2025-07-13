@@ -93,6 +93,159 @@ PHP is a versatile language capable of:
     - User registration
     - Data validation techniques
 
+#### 4. [Mathematical Operations](./5_math.php)
+- **Built-in Math Functions**
+    - Basic arithmetic operations
+    - Advanced mathematical calculations
+    - User input processing for calculations
+- **Practical Applications**
+    - Calculator implementations
+    - Mathematical problem solving
+
+#### 5. [Math Exercise - Circle Calculations](./5_math_excercise.php)
+- **Geometric Calculations**
+    - Circle area calculation
+    - Circumference computation
+    - Sphere volume calculations
+- **User Input Integration**
+    - Radius input handling
+    - Dynamic calculation results
+
+#### 6. [Switch Case Statements](./7_switches.php)
+- **Control Flow with Switch**
+    - Switch statement syntax
+    - Case handling and break statements
+    - Default case implementation
+- **Practical Examples**
+    - Grade evaluation system
+    - Menu selection handling
+    - Conditional logic alternatives
+
+#### 7. [Arrays - Indexed and Associative](./11_arrays.php)
+- **Array Types**
+    - Indexed arrays with numeric keys
+    - Associative arrays with string keys
+    - Multidimensional arrays
+- **Array Operations**
+    - Creating and initializing arrays
+    - Accessing array elements
+    - Array manipulation techniques
+- **Advanced Array Concepts**
+    - Key-value pair associations
+    - Nested array structures
+    - Tabular data representation
+
+#### 8. [Arrays Exercise - Country Capitals](./11_arrays_exercise.php)
+- **Associative Array Implementation**
+    - Country-capital mapping
+    - Dynamic data retrieval
+    - User input processing with arrays
+- **Form Integration**
+    - GET method with array lookup
+    - Error handling for missing keys
+    - Efficient data access patterns
+
+#### 9. [Radio Buttons](./13.radio.php)
+- **Single Selection Forms**
+    - Radio button implementation
+    - Form data processing
+    - User choice handling
+- **Payment Method Selection**
+    - Multiple option presentation
+    - POST method integration
+    - Selected value retrieval
+
+#### 10. [Checkboxes](./14.checkboxes.php)
+- **Multiple Selection Forms**
+    - Checkbox array handling
+    - Multiple value processing
+    - Dynamic option selection
+- **Food Selection System**
+    - Array-based checkbox values
+    - Bulk data processing
+    - User preference handling
+
+#### 11. [String Functions](./16_string_functions.php)
+- **String Manipulation Methods**
+    - `strtoupper()` - Convert to uppercase
+    - `strtolower()` - Convert to lowercase
+    - `ucwords()` - Capitalize first letters
+    - `strlen()` - String length calculation
+    - `strrev()` - String reversal
+    - `str_word_count()` - Word counting
+    - `strpos()` - Character position finding
+    - `trim()` - Whitespace removal
+    - `str_replace()` - String replacement
+    - `substr()` - String extraction
+- **Practical String Processing**
+    - Text formatting and cleaning
+    - Search and replace operations
+    - String analysis and manipulation
+
+#### 12. [Input Sanitization and Validation](./17_sanitize_n_validate_input.php)
+- **Data Security**
+    - Input sanitization techniques
+    - Data validation methods
+    - SQL injection prevention
+- **Filter Functions**
+    - `filter_input()` method usage
+    - FILTER_SANITIZE options
+    - FILTER_VALIDATE options
+- **Form Security**
+    - Email validation
+    - Username sanitization
+    - Age validation
+    - Clean data processing
+
+#### 13. [Session Management](./20_session.php)
+- **Session Fundamentals**
+    - `session_start()` - Session initialization
+    - `$_SESSION[]` - Session data storage
+    - `session_destroy()` - Session termination
+- **User Authentication**
+    - Login system implementation
+    - Session persistence across pages
+    - User data management
+- **Practical Session Demo**
+    - [Login Page](./20_session_demo/login.php)
+    - [Home Page](./20_session_demo/index.php)
+    - User state management
+    - Logout functionality
+
+#### 14. [Server Superglobal](./21_server.php)
+- **$_SERVER Variable**
+    - Server environment information
+    - HTTP headers and paths
+    - Script location details
+- **Server Data Access**
+    - Request method detection
+    - Current file identification
+    - Environment variable retrieval
+- **Web Server Integration**
+    - Server-specific information
+    - Request handling data
+    - System environment details
+
+### Advanced Topics
+
+#### Security Best Practices
+- Input validation and sanitization
+- SQL injection prevention
+- Cross-site scripting (XSS) protection
+- Session security management
+
+#### Form Processing
+- GET vs POST method selection
+- File upload handling
+- Form validation techniques
+- Error handling and user feedback
+
+#### Data Management
+- Array manipulation and processing
+- String operations and formatting
+- Session data persistence
+- Server environment utilization
+
 ## 🛠️ Getting Started
 
 ### Installation Requirements
@@ -185,15 +338,6 @@ Contributions are welcome! Here's how you can help:
 > **Case Sensitivity**: Variable names are case-sensitive (`$age` and `$AGE` are different), but keywords and function names are not.
 
 > **File Extensions**: All PHP files must end with the `.php` extension to be processed by the server.
-
-## 📊 Project Status
-
-- ✅ Basic syntax and variables
-- ✅ Form handling (GET/POST)
-- 🔄 Control structures (In Progress)
-- ⏳ Functions and includes (Planned)
-- ⏳ Database integration (Planned)
-- ⏳ Object-oriented programming (Planned)
 
 ## 📞 Contact & Support
 
