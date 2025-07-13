@@ -1,9 +1,9 @@
 # PHP Documentation by Levi
 
 <p align="center">
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
-    <img src="https://img.shields.io/badge/Documentation-FF6B6B?style=for-the-badge&logo=gitbook&logoColor=white" alt="Documentation">
-    <img src="https://img.shields.io/badge/Open%20Source-4CAF50?style=for-the-badge&logo=github&logoColor=white" alt="Open Source">
+   <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+   <img src="https://img.shields.io/badge/Documentation-FF6B6B?style=for-the-badge&logo=gitbook&logoColor=white" alt="Documentation">
+   <img src="https://img.shields.io/badge/Open%20Source-4CAF50?style=for-the-badge&logo=github&logoColor=white" alt="Open Source">
 </p>
 
 ## 📖 About This Documentation
@@ -53,197 +53,186 @@ PHP is a versatile language capable of:
 ### Core Concepts
 
 #### 1. [PHP Basics](./1_basics.php)
-- **Comments and Documentation**
-    - Single-line comments (`//`)
-    - Multi-line comments (`/* */`)
-    - Best practices for code documentation
-- **Output Methods**
-    - `echo` statement (faster, no return value)
-    - `print` statement (returns 1)
-    - Performance differences and use cases
+- Comments and documentation
+- Output methods (`echo`, `print`)
+- Basic syntax and structure
 
 #### 2. [Variables and Data Types](./2_variables_n_datatypes.php)
-- **Variable Declaration and Rules**
-    - Variable naming conventions
-    - Case sensitivity guidelines
-    - Scope management (global vs local)
-- **Data Types Coverage**
-    - `String` - Text data with quotes
-    - `Integer` - Whole numbers
-    - `Float/Double` - Decimal numbers
-    - `Boolean` - True/false values
-    - `Array` - Multiple values in one variable
-    - `NULL` - Empty or undefined values
-    - `Object` - Custom data structures
-    - `Resource` - External resources
-- **Advanced Concepts**
-    - Type checking with `var_dump()`
-    - Multiple variable assignment
-    - Variable scope (global, local, static)
+- Variable declaration and naming
+- Data types (String, Integer, Float, Boolean, Array, NULL, Object, Resource)
+- Variable scope and type checking
 
-#### 3. [Form Handling - GET and POST](./4_get_n_post.php)
-- **HTTP Methods**
-    - `$_GET` superglobal - URL parameter handling
-    - `$_POST` superglobal - Secure form data transmission
-- **Security Considerations**
-    - Data visibility differences
-    - When to use GET vs POST
-- **Practical Examples**
-    - Contact forms
-    - User registration
-    - Data validation techniques
+#### 3. [Operators](./3_operators.php)
+- Arithmetic operators
+- Comparison operators
+- Assignment operators
+- Logical operators
 
-#### 4. [Mathematical Operations](./5_math.php)
-- **Built-in Math Functions**
-    - Basic arithmetic operations
-    - Advanced mathematical calculations
-    - User input processing for calculations
-- **Practical Applications**
-    - Calculator implementations
-    - Mathematical problem solving
+#### 4. [Form Handling - GET and POST](./4_get_n_post.php)
+- HTTP methods and superglobals
+- Form data processing
+- Security considerations
 
-#### 5. [Math Exercise - Circle Calculations](./5_math_excercise.php)
-- **Geometric Calculations**
-    - Circle area calculation
-    - Circumference computation
-    - Sphere volume calculations
-- **User Input Integration**
-    - Radius input handling
-    - Dynamic calculation results
+#### 5. [Mathematical Operations](./5_math.php)
+- Built-in math functions
+- User input calculations
+- Arithmetic operations
 
-#### 6. [Switch Case Statements](./7_switches.php)
-- **Control Flow with Switch**
-    - Switch statement syntax
-    - Case handling and break statements
-    - Default case implementation
-- **Practical Examples**
-    - Grade evaluation system
-    - Menu selection handling
-    - Conditional logic alternatives
+#### 6. [Math Exercise - Circle Calculations](./5_math_excercise.php)
+- Geometric calculations
+- Area, circumference, and volume
+- Practical math applications
 
-#### 7. [Arrays - Indexed and Associative](./11_arrays.php)
-- **Array Types**
-    - Indexed arrays with numeric keys
-    - Associative arrays with string keys
-    - Multidimensional arrays
-- **Array Operations**
-    - Creating and initializing arrays
-    - Accessing array elements
-    - Array manipulation techniques
-- **Advanced Array Concepts**
-    - Key-value pair associations
-    - Nested array structures
-    - Tabular data representation
+#### 7. [Conditional Statements](./6_if.php)
+- If, else if, else statements
+- Comparison operators
+- Logical operators
 
-#### 8. [Arrays Exercise - Country Capitals](./11_arrays_exercise.php)
-- **Associative Array Implementation**
-    - Country-capital mapping
-    - Dynamic data retrieval
-    - User input processing with arrays
-- **Form Integration**
-    - GET method with array lookup
-    - Error handling for missing keys
-    - Efficient data access patterns
+#### 8. [Switch Case Statements](./7_switches.php)
+- Switch statement syntax
+- Case handling and break statements
+- Alternative to if-else chains
 
-#### 9. [Radio Buttons](./13.radio.php)
-- **Single Selection Forms**
-    - Radio button implementation
-    - Form data processing
-    - User choice handling
-- **Payment Method Selection**
-    - Multiple option presentation
-    - POST method integration
-    - Selected value retrieval
+#### 9. [For Loops](./8_for.php)
+- For loop syntax and structure
+- Loop control and iteration
+- Nested loops
 
-#### 10. [Checkboxes](./14.checkboxes.php)
-- **Multiple Selection Forms**
-    - Checkbox array handling
-    - Multiple value processing
-    - Dynamic option selection
-- **Food Selection System**
-    - Array-based checkbox values
-    - Bulk data processing
-    - User preference handling
+#### 10. [While Loops](./9_while.php)
+- While and do-while loops
+- Loop conditions
+- Infinite loop prevention
 
-#### 11. [String Functions](./16_string_functions.php)
-- **String Manipulation Methods**
-    - `strtoupper()` - Convert to uppercase
-    - `strtolower()` - Convert to lowercase
-    - `ucwords()` - Capitalize first letters
-    - `strlen()` - String length calculation
-    - `strrev()` - String reversal
-    - `str_word_count()` - Word counting
-    - `strpos()` - Character position finding
-    - `trim()` - Whitespace removal
-    - `str_replace()` - String replacement
-    - `substr()` - String extraction
-- **Practical String Processing**
-    - Text formatting and cleaning
-    - Search and replace operations
-    - String analysis and manipulation
+#### 11. [Jump Statements](./10_jump.php)
+- Break and continue statements
+- Loop control flow
+- Early termination
 
-#### 12. [Input Sanitization and Validation](./17_sanitize_n_validate_input.php)
-- **Data Security**
-    - Input sanitization techniques
-    - Data validation methods
-    - SQL injection prevention
-- **Filter Functions**
-    - `filter_input()` method usage
-    - FILTER_SANITIZE options
-    - FILTER_VALIDATE options
-- **Form Security**
-    - Email validation
-    - Username sanitization
-    - Age validation
-    - Clean data processing
+#### 12. [Arrays - Indexed and Associative](./11_arrays.php)
+- Array types and creation
+- Multidimensional arrays
+- Array manipulation
 
-#### 13. [Session Management](./20_session.php)
-- **Session Fundamentals**
-    - `session_start()` - Session initialization
-    - `$_SESSION[]` - Session data storage
-    - `session_destroy()` - Session termination
-- **User Authentication**
-    - Login system implementation
-    - Session persistence across pages
-    - User data management
-- **Practical Session Demo**
-    - [Login Page](./20_session_demo/login.php)
-    - [Home Page](./20_session_demo/index.php)
-    - User state management
-    - Logout functionality
+#### 13. [Arrays Exercise - Country Capitals](./11_arrays_exercise.php)
+- Associative array implementation
+- Dynamic data retrieval
+- Form integration with arrays
 
-#### 14. [Server Superglobal](./21_server.php)
-- **$_SERVER Variable**
-    - Server environment information
-    - HTTP headers and paths
-    - Script location details
-- **Server Data Access**
-    - Request method detection
-    - Current file identification
-    - Environment variable retrieval
-- **Web Server Integration**
-    - Server-specific information
-    - Request handling data
-    - System environment details
+#### 14. [Isset and Empty Functions](./12_isset_n_empty.php)
+- Variable existence checking
+- Empty value detection
+- Form validation helpers
+
+#### 15. [Radio Buttons](./13.radio.php)
+- Single selection forms
+- Radio button processing
+- User choice handling
+
+#### 16. [Checkboxes](./14.checkboxes.php)
+- Multiple selection forms
+- Checkbox array handling
+- Bulk data processing
+
+#### 17. [Functions](./15_functions.php)
+- Function definition and calling
+- Parameters and return values
+- Function scope
+
+#### 18. [String Functions](./16_string_functions.php)
+- String manipulation methods
+- Text processing and formatting
+- Search and replace operations
+
+#### 19. [Input Sanitization and Validation](./17_sanitize_n_validate_input.php)
+- Data security and cleaning
+- Filter functions
+- SQL injection prevention
+
+#### 20. [Include Method](./18_include_method.php)
+- File inclusion techniques
+- Code reusability
+- Include demonstrations
+
+#### 21. [Cookies](./19_cookie.php)
+- Cookie creation and management
+- Cookie security
+- Client-side data storage
+
+#### 22. [Session Management](./20_session.php)
+- Session fundamentals
+- User authentication
+- Session security
+
+#### 23. [Server Superglobal](./21_server.php)
+- $_SERVER variable
+- Server environment information
+- HTTP headers and paths
+
+#### 24. [Password Hashing](./22_hashing.php)
+- Secure password storage
+- Hashing algorithms
+- Password verification
+
+#### 25. [PHP and MySQL Connection](./23_php_X_mysql.php)
+- Database connectivity
+- Connection parameters
+- Error handling
+
+#### 26. [MySQL Table Creation](./24_php_X_mysql_create_table.php)
+- Database table creation
+- SQL DDL commands
+- Table structure design
+
+#### 27. [MySQL Data Insertion](./25_PHP_X_MYSQL_insert_data_to_table.php)
+- Data insertion operations
+- SQL INSERT statements
+- Form data to database
+
+#### 28. [MySQL Data Retrieval](./26_PHP_X_MYSQL_retrieving_data.php)
+- Data retrieval operations
+- SQL SELECT statements
+- Displaying database records
+
+### Project Demonstrations
+
+#### 29. [Include Method Demo](./18_include_method_demo/)
+- Practical file inclusion examples
+- Modular code organization
+- Real-world implementation
+
+#### 30. [Session Demo](./20_session_demo/)
+- Complete login system
+- Session management in practice
+- Multi-page applications
+
+#### 31. [Basic Project](./basic%20project/)
+- Comprehensive PHP application
+- Integration of multiple concepts
+- Real-world project structure
+
+#### 32. [Database Configuration](./database.example.php)
+- Database connection setup
+- Configuration management
+- Connection utilities
 
 ### Advanced Topics
 
+#### Database Integration
+- MySQL connectivity and operations
+- Table creation and management
+- Data manipulation (CRUD operations)
+- Database security
+
 #### Security Best Practices
 - Input validation and sanitization
-- SQL injection prevention
-- Cross-site scripting (XSS) protection
+- Password hashing and verification
 - Session security management
+- SQL injection prevention
 
-#### Form Processing
-- GET vs POST method selection
-- File upload handling
-- Form validation techniques
-- Error handling and user feedback
-
-#### Data Management
-- Array manipulation and processing
-- String operations and formatting
-- Session data persistence
+#### Web Development Features
+- Form processing and validation
+- File inclusion and modular design
+- Cookie and session management
 - Server environment utilization
 
 ## 🛠️ Getting Started
@@ -251,15 +240,15 @@ PHP is a versatile language capable of:
 ### Installation Requirements
 
 1. **Web Server** (Choose one):
-     - [XAMPP](https://www.apachefriends.org/) - Cross-platform solution
-     - [WAMP](https://www.wampserver.com/) - Windows-specific
-     - [MAMP](https://www.mamp.info/) - macOS-specific
-     - [LAMP](https://www.linux.com/training-tutorials/easy-lamp-server-installation/) - Linux-specific
+    - [XAMPP](https://www.apachefriends.org/) - Cross-platform solution
+    - [WAMP](https://www.wampserver.com/) - Windows-specific
+    - [MAMP](https://www.mamp.info/) - macOS-specific
+    - [LAMP](https://www.linux.com/training-tutorials/easy-lamp-server-installation/) - Linux-specific
 
 2. **Code Editor** (Recommended):
-     - [Visual Studio Code](https://code.visualstudio.com/) with PHP extensions
-     - [PhpStorm](https://www.jetbrains.com/phpstorm/) - Professional IDE
-     - [Sublime Text](https://www.sublimetext.com/) with PHP packages
+    - [Visual Studio Code](https://code.visualstudio.com/) with PHP extensions
+    - [PhpStorm](https://www.jetbrains.com/phpstorm/) - Professional IDE
+    - [Sublime Text](https://www.sublimetext.com/) with PHP packages
 
 ### Quick Setup
 
@@ -348,9 +337,9 @@ Contributions are welcome! Here's how you can help:
 ---
 
 <p align="center">
-    <strong>⭐ If you find this documentation helpful, please consider giving it a star!</strong>
+   <strong>⭐ If you find this documentation helpful, please consider giving it a star!</strong>
 </p>
 
 <p align="center">
-    Made with ❤️ by <a href="https://github.com/LeviNjoroge">Levi Njoroge</a>
+   Made with ❤️ by <a href="https://github.com/LeviNjoroge">Levi Njoroge</a>
 </p>
