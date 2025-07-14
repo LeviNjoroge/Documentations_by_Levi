@@ -2,6 +2,7 @@
 // sign in page
 include("database.php");
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,13 +14,40 @@ include("database.php");
     <h1>Welcome to JayBanca!</h1>
     <h2>Signin Form</h2>
     <form action="" method="post">
-        username/email: <input type="text" name="username" id="username"> <br>
-        password <input type="password" name="password" id="password"> <br>
+        username/email: <input type="text" name="username" id="username" placeholder="joe_doe" required> <br>
+        password <input type="password" name="password" id="password" placeholder="********" required> <br>
         <input type="submit" value="Submit" name="Sign In"> <br>
     </form>
 </body>
 </html>
 
 <?php
+$count = 3;
+$username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
+$password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_SPECIAL_CHARS);
+
+$verify_user = "SELECT * FROM users WHERE username = '$username' OR email = '$username'";
+
+$result = mysqli_query($conn, $verify_user);
+
+if (mysqli_num_rows($result) > 0) {
+    $user = mysqli_fetch_assoc($result);
+    $user_username = $user["username"];
+    $user_password = $user["password"];
+    if (password_verify($password, $user_password)) {
+        echo "login successful";
+    }
+    else {
+        echo "incorrect password";
+    }
+}
+else {
+    echo "Incorrect username";
+    $count--;
+    if ($count <1) {
+        header("signup.php");
+    }
+}
+
 mysqli_close($conn);
 ?>
