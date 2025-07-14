@@ -26,7 +26,7 @@ $count = 3;
 $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
 $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_SPECIAL_CHARS);
 
-$verify_user = "SELECT * FROM users WHERE username = '$username' OR email = '$username'";
+$verify_user = "SELECT * FROM users WHERE username = '$username' OR email_address = '$username'";
 
 $result = mysqli_query($conn, $verify_user);
 
