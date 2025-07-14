@@ -1,6 +1,7 @@
 <?php
 // the registration form
 include("database.php");
+session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -55,6 +56,7 @@ if (isset($_POST["signup"])) {
 
     try{
         mysqli_query($conn, $sql_add_user);
+        header("Location: index.php");
     }
     catch(Exception $e){
         if (str_contains($e->getMessage(), 'Duplicate entry')) {

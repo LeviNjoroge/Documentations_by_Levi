@@ -1,6 +1,7 @@
 <?php
 // sign in page
 include("database.php");
+session_start();
 ?>
 
 <!DOCTYPE html>
