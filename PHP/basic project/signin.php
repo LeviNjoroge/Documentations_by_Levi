@@ -22,7 +22,7 @@ include("database.php");
 </html>
 
 <?php
-$count = 3;
+static $count = 3;
 $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
 $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_SPECIAL_CHARS);
 
@@ -32,12 +32,14 @@ $result = mysqli_query($conn, $verify_user);
 
 if (mysqli_num_rows($result) > 0) {
     $user = mysqli_fetch_assoc($result);
-    $user_username = $user["username"];
+    $_SESSION['username'] = $user_username = $user["username"];
     $user_password = $user["password"];
+    $_SESSION['first_name'] = $user["first_name"];
+    $_SESSION['last_name'] = $user["last_name"];
+    
     if (password_verify($password, $user_password)) {
         echo "login successful";
         header("Location: index.php");
-
     }
     else {
         echo "Incorrect password";
@@ -45,8 +47,8 @@ if (mysqli_num_rows($result) > 0) {
     }
 }
 else {
-    echo "Incorrect username";
     $count--;
+    echo "Incorrect username <br>You have {$count} more trys remaining";
     if ($count <1) {
         header("Location: signup.php");
     }
