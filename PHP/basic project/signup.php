@@ -31,18 +31,39 @@ include("database.php");
 
 if (isset($_POST["signup"])) {
     $first_name = filter_input(INPUT_POST, "first_name", FILTER_SANITIZE_SPECIAL_CHARS);
-    $last_name = filter_input(INPUT_POST, "last_name", FILTER_SANITIZE_SPECIAL_CHARS);
+    $last_name = filter_input(INPUT_POST, "last_name", FILTER_SANITIZE_SPECIAL_CHARS) ?: NULL;
     $surname = filter_input(INPUT_POST, "surname", FILTER_SANITIZE_SPECIAL_CHARS);
     $date_of_birth = $_POST["date_of_birth"];
     $id = filter_input(INPUT_POST,"id",FILTER_VALIDATE_INT);
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_SPECIAL_CHARS);
-    $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL);
-    $phone = filter_input(INPUT_POST,"phone",FILTER_VALIDATE_INT);
+    $email = filter_input(INPUT_POST, "email", FILTER_SANITIZE_EMAIL) ?? NULL;
+    $phone = $_POST["phone"] ?? NULL;
     $password = password_hash($_POST["password"], PASSWORD_DEFAULT);
 
+    echo $phone . "<br>";
+    echo $last_name . "<br>";
+
     $sql_add_user = "
-                        INSERT INTO users(first_name, last_name, )
+                        INSERT INTO users(first_name, last_name, surname, date_of_birth, national_id_no, username, email_address, phone_number, password)
+                        VALUES ('$first_name', 
+                        " . ($last_name ? "'$last_name'" : "NULL") . ",
+                        '$surname', '$date_of_birth', '$id', '$username',
+                        " . ($email ? "'$email'" : "NULL") . ",
+                        " . ($phone ? "'$phone'" : "NULL") . ",
+                        '$password')
     ";
+
+    try{
+        mysqli_query($conn, $sql_add_user);
+    }
+    catch(Exception $e){
+        if (str_contains($e->getMessage(), 'Duplicate entry')) {
+        echo "Duplicate entry!";
+        }
+        else {
+            echo "Could not register user. <br>Try again later!";
+        }
+    }
 }
 
 
