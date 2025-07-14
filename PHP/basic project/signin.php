@@ -36,16 +36,19 @@ if (mysqli_num_rows($result) > 0) {
     $user_password = $user["password"];
     if (password_verify($password, $user_password)) {
         echo "login successful";
+        header("Location: index.php");
+
     }
     else {
-        echo "incorrect password";
+        echo "Incorrect password";
+        
     }
 }
 else {
     echo "Incorrect username";
     $count--;
     if ($count <1) {
-        header("signup.php");
+        header("Location: signup.php");
     }
 }
 
