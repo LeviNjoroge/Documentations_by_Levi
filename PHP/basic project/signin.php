@@ -2,7 +2,6 @@
 // sign in page
 include("database.php");
 session_start();
-$message = null;
 ?>
 
 <!DOCTYPE html>
@@ -75,7 +74,6 @@ $message = null;
 
             <input type="submit" value="Sign In" name="signin">
             
-            <p style="color: greenyellow;"><?php echo $message?></p>
         </form>
     </div>
 </body>
@@ -98,20 +96,17 @@ if (mysqli_num_rows($result) > 0) {
     $_SESSION['last_name'] = $user["last_name"];
     
     if (password_verify($password, $user_password)) {
-        echo "Login successful";
-        $message = "Login successful!";
+        echo "login successful";
         header("Location: index.php");
     }
     else {
         echo "Incorrect password";
-        $message = "Incorrect password";
         
     }
 }
 else {
     $count--;
     echo "Incorrect username <br>You have {$count} more trys remaining";
-    $message = "Incorrect username <br>You have {$count} more trys remaining";
     if ($count <1) {
         header("Location: signup.php");
     }
