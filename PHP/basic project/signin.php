@@ -2,6 +2,7 @@
 // sign in page
 include("database.php");
 session_start();
+$message = null;
 ?>
 
 <!DOCTYPE html>
