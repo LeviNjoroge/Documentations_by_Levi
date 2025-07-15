@@ -97,17 +97,20 @@ if (mysqli_num_rows($result) > 0) {
     $_SESSION['last_name'] = $user["last_name"];
     
     if (password_verify($password, $user_password)) {
-        echo "login successful";
+        echo "Login successful";
+        $message = "Login successful!";
         header("Location: index.php");
     }
     else {
         echo "Incorrect password";
+        $message = "Incorrect password";
         
     }
 }
 else {
     $count--;
     echo "Incorrect username <br>You have {$count} more trys remaining";
+    $message = "Incorrect username <br>You have {$count} more trys remaining";
     if ($count <1) {
         header("Location: signup.php");
     }
