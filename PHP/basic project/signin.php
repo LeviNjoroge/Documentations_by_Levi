@@ -74,7 +74,7 @@ session_start();
 
             <input type="submit" value="Sign In" name="signin">
             
-            
+            <p style="color: greenyellow;"><?php echo $message?></p>
         </form>
     </div>
 </body>
