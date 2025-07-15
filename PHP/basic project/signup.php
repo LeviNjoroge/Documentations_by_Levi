@@ -7,26 +7,100 @@ session_start();
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jay_Banca_Signup</title>
+    <title>JayBanca Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .form-container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="password"],
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        input[type="submit"] {
+            margin-top: 25px;
+            width: 100%;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to JayBanca!</h1>
-    <h2>Registration Form</h2>
-    <form action="" method="post">
-        First Name: <input type="text" name="first_name" id="first_name" placeholder="Joe" required> <br>
-        Last Name: <input type="text" name="last_name" id="last_name" placeholder="William"> <br>
-        Surname: <input type="text" name="surname" id="surname" placeholder="Doe" required> <br>
-        Date of birth: <input type="date" name="date_of_birth" id="date_of_birth" required> <br>
-        National ID No.: <input type="number" name="id" id="id" placeholder="88888888" required> <br>
-        Username: <input type="text" name="username" id="username" placeholder="joedoe01" required> <br>
-        Email Address: <input type="email" name="email" id="email" placeholder="example@email.com"> <br>
-        Phone Number: <input type="tel" name="phone" id="phone" placeholder="0712345678"> <br>
-        Password: <input type="password" name="password" id="password" required> <br>
-        <input type="submit" value="Submit" name="signup"> <br>
-    </form>
+    <div class="form-container">
+        <h1>Welcome to JayBanca!</h1>
+        <h2>Registration Form</h2>
+        <form action="" method="post">
+            <label for="first_name">First Name:</label>
+            <input type="text" name="first_name" id="first_name" placeholder="Joe" required>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" name="last_name" id="last_name" placeholder="William">
+
+            <label for="surname">Surname:</label>
+            <input type="text" name="surname" id="surname" placeholder="Doe" required>
+
+            <label for="date_of_birth">Date of Birth:</label>
+            <input type="date" name="date_of_birth" id="date_of_birth" required>
+
+            <label for="id">National ID No.:</label>
+            <input type="number" name="id" id="id" placeholder="88888888" required>
+
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="joedoe01" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com">
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" placeholder="0712345678">
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" required>
+
+            <input type="submit" value="Submit" name="signup">
+        </form>
+    </div>
 </body>
 </html>
+
 
 <?php
 
@@ -66,6 +140,8 @@ if (isset($_POST["signup"])) {
             echo "Could not register user. <br>Try again later!";
         }
     }
+    $_SESSION['first_name'] = $first_name;
+    $_SESSION['last_name'] = $last_name;
 }
 
 
