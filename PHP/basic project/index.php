@@ -14,6 +14,6 @@ include("api.php");
 </head>
 <body>
     <h1>Hi <?php echo $first_name?>!</h1>
-    
+    <button onclick="">Check balance</button>
 </body>
 </html>
