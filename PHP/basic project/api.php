@@ -4,7 +4,8 @@
 include("database.php");
 
 function check_balance($id){
-    $sql_check_balance = ;
+    $sql_check_balance = "SELECT balance FROM finances WHERE user_id = {$id}";
+    mysqli_query($conn, )
 }
 
 mysqli_close($conn);
