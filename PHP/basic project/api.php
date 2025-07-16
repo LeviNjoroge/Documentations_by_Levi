@@ -3,5 +3,5 @@
 
 include("database.php");
 
-mysqli_close($)
+mysqli_close($conn);
 ?>
