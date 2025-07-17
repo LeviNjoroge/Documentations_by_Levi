@@ -12,31 +12,32 @@ session_start();
 <body>
         <h2>Registration Form</h2>
         <form action="" method="post">
-            <label for="first_name">First Name:</label>
-            <input type="text" name="first_name" id="first_name" placeholder="Joe" required>
+            <label for="first_name">First Name:</label> <br>
+            <input type="text" name="first_name" id="first_name" placeholder="Joe" required> <br>
 
-            <label for="last_name">Last Name:</label>
-            <input type="text" name="last_name" id="last_name" placeholder="William">
+            <label for="last_name">Last Name:</label> <br>
+            <input type="text" name="last_name" id="last_name" placeholder="William"> <br>
 
-            <label for="surname">Surname:</label>
-            <input type="text" name="surname" id="surname" placeholder="Doe" required>
+            <label for="surname">Surname:</label> <br>
+            <input type="text" name="surname" id="surname" placeholder="Doe" required> <br>
 
-            <label for="date_of_birth">Date of Birth:</label>
-            <input type="date" name="date_of_birth" id="date_of_birth" required>
+            <label for="date_of_birth">Date of Birth:</label> <br>
+            <input type="date" name="date_of_birth" id="date_of_birth" required> <br>
 
-            <label for="id">National ID No.:</label>
-            <input type="number" name="id" id="id" placeholder="88888888" required>
+            <label for="id">National ID No.:</label> <br>
+            <input type="number" name="id" id="id" placeholder="88888888" required> <br>
 
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username" placeholder="joedoe01" required>
 
-            <label for="email">Email Address:</label>
-            <input type="email" name="email" id="email" placeholder="example@email.com">
+            <label for="username">Username:</label> <br>
+            <input type="text" name="username" id="username" placeholder="joedoe01" required> <br>
 
-            <label for="phone">Phone Number:</label>
-            <input type="tel" name="phone" id="phone" placeholder="0712345678">
+            <label for="email">Email Address:</label> <br>
+            <input type="email" name="email" id="email" placeholder="example@email.com"> <br>
 
-            <label for="password">Password:</label>
+            <label for="phone">Phone Number:</label> <br>
+            <input type="tel" name="phone" id="phone" placeholder="0712345678"> <br>
+
+            <label for="password">Password:</label> <br>
             <input type="password" name="password" id="password" required> <br>
 
             <input type="submit" value="Submit" name="signup"> <br>
