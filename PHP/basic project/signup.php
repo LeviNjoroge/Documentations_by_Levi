@@ -19,13 +19,13 @@ session_start();
             <input type="text" name="last_name" id="last_name" placeholder="William"> <br>
 
             <label for="surname">Surname:</label> <br>
-            <input type="text" name="surname" id="surname" placeholder="Doe" required> <br>
+            <input type="text" name="surname" id="surname" placeholder="Doe" required> <br> <br>
 
             <label for="date_of_birth">Date of Birth:</label> <br>
             <input type="date" name="date_of_birth" id="date_of_birth" required> <br>
 
             <label for="id">National ID No.:</label> <br>
-            <input type="number" name="id" id="id" placeholder="88888888" required> <br>
+            <input type="number" name="id" id="id" placeholder="88888888" required> <br> <br>
 
 
             <label for="username">Username:</label> <br>
