@@ -9,61 +9,10 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jay_Banca_Signin</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-        }
-        .form-container {
-            background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-            max-width: 400px;
-            width: 100%;
-        }
-        h1, h2 {
-            text-align: center;
-            color: #333;
-        }
-        label {
-            display: block;
-            margin-top: 15px;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        input[type="text"],
-        input[type="password"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        input[type="submit"] {
-            margin-top: 25px;
-            width: 100%;
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 12px;
-            font-size: 16px;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <title>PHP Demo</title>
 </head>
 <body>
     <div class="form-container">
-        <h1>Welcome to JayBanca!</h1>
         <h2>Signin Form</h2>
         <form action="" method="post">
             <label for="username">Username / Email:</label>
