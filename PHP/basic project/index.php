@@ -21,5 +21,7 @@ include("api.php");
 </html>
 
 <?php
-
+if(isset($_GET["logout"])){
+    
+}
 ?>
