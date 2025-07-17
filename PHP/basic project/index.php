@@ -22,6 +22,7 @@ include("api.php");
 
 <?php
 if(isset($_GET["logout"])){
-    
+    session_destroy();
+    header("Location: signin.php");
 }
 ?>
