@@ -15,14 +15,15 @@ session_start();
     <div class="form-container">
         <h2>Signin Form</h2>
         <form action="" method="post">
-            <label for="username">Username / Email:</label>
-            <input type="text" name="username" id="username" placeholder="joe_doe" required>
+            <label for="username">Username / Email:</label> <br>
+            <input type="text" name="username" id="username" placeholder="joe_doe" required> <br>
 
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password" placeholder="********" required>
+            <label for="password">Password:</label> <br>
+            <input type="password" name="password" id="password" placeholder="********" required> <br>
 
-            <input type="submit" value="Sign In" name="signin">
-            
+            <input type="submit" value="Sign In" name="signin"> <br>
+            Don't have an account? <a href="signup.php">Register here</a> <br><br>
+             
         </form>
     </div>
 </body>
