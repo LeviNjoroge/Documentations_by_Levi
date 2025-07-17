@@ -14,5 +14,12 @@ include("api.php");
 </head>
 <body>
     <h1>Hi <?php echo $first_name?>!</h1>
+    <form action="" method="get">
+        <input type="submit" value="Logout" name="logout"> <br>
+    </form>
 </body>
 </html>
+
+<?php
+
+?>
