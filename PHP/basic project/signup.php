@@ -10,8 +10,6 @@ session_start();
     <title>PHP Demo</title>
 </head>
 <body>
-    <div class="form-container">
-        <h1>Welcome to JayBanca!</h1>
         <h2>Registration Form</h2>
         <form action="" method="post">
             <label for="first_name">First Name:</label>
@@ -39,11 +37,11 @@ session_start();
             <input type="tel" name="phone" id="phone" placeholder="0712345678">
 
             <label for="password">Password:</label>
-            <input type="password" name="password" id="password" required>
+            <input type="password" name="password" id="password" required> <br>
 
-            <input type="submit" value="Submit" name="signup">
+            <input type="submit" value="Submit" name="signup"> <br>
+            Already registered? <a href="signin.php">Log in</a> to your account here <br><br>
         </form>
-    </div>
 </body>
 </html>
 
