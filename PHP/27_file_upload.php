@@ -10,8 +10,8 @@
 
 
 ?>
-<form action="" method="post" enctype="multipart/form-data">
-    <input type="file" name="file" id="file" accept=".png, .jpg, .jpeg" size="1024"><br>
+<form action="" method="post" enctype="multipart/form-data"> <!--IMPORTANT BIT - TAKE NOTE!-->
+    <input type="file" name="file" id="file" accept=".png, .jpg, .jpeg"><br> <!--IMPORTANT BIT - TAKE NOTE!-->
     <input type="submit" value="submit" name="submit"> <br>
 </form>
 <?php
@@ -29,10 +29,14 @@ if (isset($_POST["submit"])) {
         if ($file['error']) { // ensure no error
             echo "There was an error uploading this file, please try again later!";
         } else{
-            if ($file['size'] < 6001) { // restrict the file size for efficiency in storage
+            if ($file['size'] < 5 * 1000000 + 1) { // restrict the file size for efficiency in storage
                 $current_file_location = $file['tmp_name'];
-                $new_file_location = "27_files_upload/" . rand(1000, 10000) . "." . $fileExt;
+                $new_file_location = "27_files_upload/" . rand(1000, 10000) . "." . $fileExt; //    
                 move_uploaded_file($current_file_location, $new_file_location);
+                // alert the user that the file has been uploaded successfully
+                echo "File upload successful!";
+                echo "<script>alert('File Upload Successful!')</script>";
+                header("Location: {$_SERVER['PHP_SELF']}?uploadsuccessful");
             } else {
                 echo "The file is too large! Can't be aploaded:(";
             }
