@@ -31,8 +31,8 @@ if (isset($_POST["submit"])) {
         } else{
             if ($file['size'] < 5 * 1000000 + 1) { // restrict the file size for efficiency in storage
                 $current_file_location = $file['tmp_name'];
-                $new_file_location = "27_files_upload/" . rand(1000, 10000) . "." . $fileExt; //    
-                move_uploaded_file($current_file_location, $new_file_location);
+                $new_file_location = "27_files_upload/" . rand(1000, 10000) . "." . $fileExt; // giving a random custom name to the file
+                move_uploaded_file($current_file_location, $new_file_location); // moving the file to desdired storage location
                 // alert the user that the file has been uploaded successfully
                 echo "File upload successful!";
                 echo "<script>alert('File Upload Successful!')</script>";
