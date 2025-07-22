@@ -8,6 +8,7 @@
 #error - BOOL - indicates whether there was an error trying to get the file
 #size [in bytes]
 
+
 ?>
 <form action="" method="post" enctype="multipart/form-data">
     <input type="file" name="file" id="file"><br>
@@ -23,6 +24,5 @@ if (isset($_POST["submit"])) {
     
 }
 
-//... Tis not over yet... will be back
 ?>
 
